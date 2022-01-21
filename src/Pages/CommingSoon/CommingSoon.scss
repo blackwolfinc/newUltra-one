@@ -1,0 +1,46 @@
+.CommingSoonContainer {
+  background-color: red;
+  background: url(../../Assets/img/Banner.svg) , url(../../Assets/img/Banner1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  .ContainerCmsoon {
+    // background-color: red;
+  }
+
+  .CommingSoonBody {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-self: center;
+
+    h1 {
+      color: #25203f;
+      font-size: 46px;
+      line-height: 74px;
+      margin: 0rem;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    button{
+        background-color: #25203F;
+        padding: 13px 26px 12px;
+        margin-top: 2rem;
+        color: #fff;
+        width: 30%;
+        border-radius: 4px;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+  }
+}
