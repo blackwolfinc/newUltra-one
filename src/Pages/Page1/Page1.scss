@@ -1,3 +1,4 @@
+
 .page1Header {
   background-color: aqua;
   background: url(../../Assets/img/BackgrounAtas.png);
@@ -41,7 +42,7 @@
   }
 
   img {
-    width: 8rem;
+    width: 7rem;
     margin-top: -1rem;
   }
 }
@@ -121,4 +122,39 @@
       margin-top: 1rem;
     }
   }
+}
+
+
+.ProductBody{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .ProductHeader{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        // background-color: red;
+        h1{
+            font-family: 'Red Hat Display', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 61px;   
+        }
+        P{
+            font-family: 'Red Hat Display', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            margin-top: -1rem;
+        }
+        margin-bottom: 3rem;
+    }
+
+
+
 }
