@@ -1,4 +1,3 @@
-
 .page1Header {
   background-color: aqua;
   background: url(../../Assets/img/BackgrounAtas.png);
@@ -8,6 +7,7 @@
   padding: 2rem 0rem;
   font-family: "Red Hat Display", sans-serif;
   margin-bottom: 10rem;
+
   .HeaderLogo {
     display: flex;
     justify-content: space-between;
@@ -33,6 +33,7 @@
     margin-left: 2rem;
     margin-top: -2rem;
   }
+
   a {
     font-weight: 600;
     font-size: 16px;
@@ -69,6 +70,7 @@
       margin: 0rem;
       font-family: "Red Hat Display", sans-serif;
     }
+
     p {
       font-style: normal;
       font-weight: normal;
@@ -76,6 +78,7 @@
       line-height: 24px;
       font-family: "Red Hat Display", sans-serif;
     }
+
     button {
       background-color: #25203f;
       padding: 13px 26px 12px;
@@ -98,6 +101,7 @@
   box-shadow: 0px 12px 24px rgba(37, 32, 63, 0.06);
   display: flex;
   align-items: center;
+
   p {
     font-weight: 600;
     font-size: 12px;
@@ -106,9 +110,11 @@
 
     letter-spacing: 0.03em;
   }
+
   h1 {
     margin-left: 3rem;
   }
+
   .miniCard {
     margin-left: 1rem;
     display: flex;
@@ -116,6 +122,7 @@
     align-content: center;
     align-items: center;
     align-self: center;
+
     img {
       max-width: 6rem;
       max-height: 6rem;
@@ -124,37 +131,342 @@
   }
 }
 
+.ProductBody {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
-.ProductBody{
-    margin-top: 10rem;
+  .ProductHeader {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
-    .ProductHeader{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        // background-color: red;
-        h1{
-            font-family: 'Red Hat Display', sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 46px;
-            line-height: 61px;   
-        }
-        P{
-            font-family: 'Red Hat Display', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 24px;
-            text-align: center;
-            margin-top: -1rem;
-        }
-        margin-bottom: 3rem;
+
+    // background-color: red;
+    h1 {
+      font-family: "Red Hat Display", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 61px;
     }
 
+    P {
+      font-family: "Red Hat Display", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      margin-top: -1rem;
+    }
+
+    margin-bottom: 3rem;
+  }
+
+  .CardProduct {
+    background-color: #eeeeff;
+    border-radius: 12px;
+    padding: 2.5rem 2.5rem !important;
+    min-height: 17rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 100% !important;
+
+    @media all and (min-width: 1280px) {
+      flex-basis: 31.5% !important;
+    }
+
+    @media all and (min-width: 960px) and (max-width: 1279px) {
+      flex-basis: 47.5% !important;
+    }
+
+    margin: 11px;
+
+    img {
+      max-width: 4.5rem;
+    }
+
+    h1 {
+      font-family: "Red Hat Display", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 29px;
+
+      color: #25203f;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-family: "Red Hat Display", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      /* or 137% */
+
+      color: rgba(37, 32, 63, 0.65);
+    }
+
+    a {
+      font-family: "Red Hat Display", sans-serif;
+
+      text-decoration: auto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 19px;
+    }
+  }
+}
+
+.OurNetworkContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  text-align: center;
+
+  h1 {
+    font-family: "Red Hat Display", sans-serif;
+   
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #25203f;
+  }
+
+  .ContainerCountry {
+    display: flex;
+    justify-content: center;
+
+    .CardCountry {
+      font-family: "Red Hat Display", sans-serif;
+      padding: 1.4rem 0rem;
+      min-width: 9rem !important;
+      // background: #aeaeb6;
+      margin-bottom: -1rem;
+
+      p {
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: rgba(37, 32, 63, 0.65);
+      }
+
+      p:hover {
+        color: #7272c0;
+        transform: scale(1.2);
+      }
+      p:hover::after {
+        content: "";
+        display: block;
+        width: 72%;
+        padding-top: 3px;
+        margin: 0rem auto -1.43rem;
+        padding-bottom: 0.8rem;
+        border-bottom: 4.5px solid #fbba32;
+      }
+    }
+
+    margin-bottom: 3rem;
+  }
+
+  .ContainerButtonCountry {
+    // background-color: red;
+    display: flex;
+    width: 100%;
+    // background-color: aqua;
+
+    justify-content: space-between;
+
+    margin-bottom: 5rem;
+    .ButtonCountry {
+      margin: 0rem 0rem;
+      position: relative;
+      button {
+        padding: 0.5rem 1rem;
+        min-width: max-content;
+        font-weight: 600;
+        font-size: 16px;
+        color: #7272c0;
+        line-height: 24px;
+        background: #fff;
+        border: 2px solid #7272c0;
+        box-sizing: border-box;
+        border-radius: 8px;
+      }
+      button:hover{
+        background: #7272c0;color: #fff;
+      }
+      button:hover::after{
+        content: "";
+        width:17px;
+        height:20px;
+        bottom: -0.3rem;
+        left: 44%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        background-color:#7272c0;
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 )
+      }
+    }
+  }
+}
+
+.ContainerCountry::after {
+  content: "";
+  display: block;
+  width: 90%;
+  border-bottom: 1px solid #25203fad;
+}
+.ColorDiverent{
+  color: #25203F !important;
+}
+.CardExplainContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 6rem;
 
 
+  @media all and (min-width: 1440px) {
+    .CardExplain {
+      flex-basis: 22.97% !important;
+      max-width: fit-content !important;
+    }
+  }
+
+  @media all and (min-width: 500px) and (max-width: 1430px) {
+    .CardExplain {
+      flex-basis: 45% !important;
+      max-width: fit-content !important;
+    }
+  }
+
+  .CardExplain {
+    // background-color: #7272c0;
+    // transform: scale(0.95);
+    display: flex;
+    justify-content: center;
+
+    margin: 12px !important;
+    background: #ffffff;
+    box-shadow: 0px 10px 24px rgba(37, 32, 63, 0.08);
+    border-radius: 8px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    .CardExplainHeader {
+      background-color: #ffda7c;
+      padding: 0rem 2rem;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      min-height: 5.3rem !important;
+      h1 {
+        font-family: "Red Hat Display", sans-serif;
+
+        font-size: 22px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+
+        color: #25203f;
+      }
+    }
+    .left {
+      text-align: right;
+    }
+    .center {
+      text-align: center;
+    }
+    .CardExplainBody {
+      padding: 1rem;
+      border-bottom: 1px solid #25203f33;
+   
+      p {
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #25203f;
+        width: 100%;
+      }
+    }
+    .CardExplainBottom {
+      padding: 1rem;
+      p {
+        color: rgba(37, 32, 63, 0.65);
+        font-family: "Red Hat Display", sans-serif;
+
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+    .ButtonWarp {
+      display: flex;
+      justify-content: center;
+      margin: 1rem 0rem;
+      .ButtonBuy {
+        font-family: "Red Hat Display", sans-serif;
+        padding: 0.5rem 2rem;
+        width: 10rem;
+        margin: 0rem 0.5rem;
+
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 19px;
+        background: #25203f;
+        border-radius: 4px;
+      }
+      .ButtonCUSTOMIZE {
+        font-family: "Red Hat Display", sans-serif;
+        margin: 1rem 0rem;
+        padding: 0.5rem 1.5rem;
+        width: 10rem;
+        margin: 0rem 0.5rem;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        color: #25203f;
+        font-size: 14px;
+        line-height: 19px;
+        border: 1px solid #25203f;
+        border-radius: 4px;
+      }
+    }
+    h2 {
+      font-family: "Red Hat Display", sans-serif;
+      color: #2ccb58;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    h3 {
+      font-family: "Red Hat Display", sans-serif;
+      color: #25203f;
+      text-decoration-line: line-through;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
 }
