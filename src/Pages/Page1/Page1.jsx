@@ -11,7 +11,15 @@ import iconP3 from "../../Assets/Icon/IconProduct/Property 1=Data.png";
 import iconP4 from "../../Assets/Icon/IconProduct/Property 1=Platinum.png";
 import iconP5 from "../../Assets/Icon/IconProduct/Property 1=IP.png";
 import iconP6 from "../../Assets/Icon/IconProduct/Property 1=Global.png";
-
+import iconLocation1 from "../../Assets/Icon/iconLocation/Point_icon.png";
+import iconLocation2 from "../../Assets/Icon/iconLocation/Point_icon2.png";
+import iconLocation3 from "../../Assets/Icon/iconLocation/Point_icon3.png";
+import iconLocation4 from "../../Assets/Icon/iconLocation/Point_icon4.png";
+import iconSocial from "../../Assets/Icon/iconSocial/Social Icons.png";
+import iconSocial2 from "../../Assets/Icon/iconSocial/Social Icons2.png";
+import iconSocial3 from "../../Assets/Icon/iconSocial/Social Icons3.png";
+import iconSocial4 from "../../Assets/Icon/iconSocial/Social Icons4.png";
+import LocationBackground from "../../Assets/img/Locations.png";
 import "./Page1.scss";
 export const Page1 = () => {
   const [InerWidth, setInerWidth] = useState(window.innerWidth);
@@ -205,7 +213,7 @@ export const Page1 = () => {
           </Grid>
         </Grid>
       </Container>
-      <Container maxWidth="xl"> 
+      <Container maxWidth="xl">
         <Grid container className="CardExplainContainer">
           <Grid item sm={3} className="CardExplain">
             <Grid container>
@@ -214,34 +222,34 @@ export const Page1 = () => {
               </Grid>
               <Grid item md={12}>
                 <Grid container className="CardExplainBody">
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> CPU</p>
                   </Grid>
-                  <Grid className="left" item  xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x4 Cores 3.20GHz</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HP DL120 G7</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 4 LFF bays</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p>RAM</p>
                   </Grid>
-                  <Grid className="left"  item xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 16GB DDR3</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HDD</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 2x1TB SATA</p>
                   </Grid>
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> TRAFFIC</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
@@ -254,7 +262,7 @@ export const Page1 = () => {
                   <Grid item xs={6} sm={6} md={6}>
                     <p> Availability</p>
                   </Grid>
-                  <Grid item  className="left" xs={5} sm={6} md={6}>
+                  <Grid item className="left" xs={5} sm={6} md={6}>
                     <p> 1 hr - 5 days </p>
                   </Grid>
                   <Grid item xs={6} sm={6} md={7}>
@@ -264,17 +272,16 @@ export const Page1 = () => {
                     <h3> US$59.16 </h3>
                   </Grid>
                 </Grid>
-                <Grid container >
+                <Grid container>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonBuy">BUY NOW</button>
+                    <button className="ButtonBuy">BUY NOW</button>
                   </Grid>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
+                    <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
                   </Grid>
                 </Grid>
                 <br />
                 <p className="center">*One-off US$50.00 setup free applies.</p>
-               
               </Grid>
             </Grid>
           </Grid>
@@ -285,34 +292,34 @@ export const Page1 = () => {
               </Grid>
               <Grid item md={12}>
                 <Grid container className="CardExplainBody">
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> CPU</p>
                   </Grid>
-                  <Grid className="left" item  xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x4 Cores 3.20GHz</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HP DL120 G7</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 4 LFF bays</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p>RAM</p>
                   </Grid>
-                  <Grid className="left"  item xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 16GB DDR4</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HDD</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x120GB SSD</p>
                   </Grid>
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> TRAFFIC</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
@@ -325,7 +332,7 @@ export const Page1 = () => {
                   <Grid item xs={6} sm={6} md={6}>
                     <p> Availability</p>
                   </Grid>
-                  <Grid item  className="left" xs={5} sm={6} md={6}>
+                  <Grid item className="left" xs={5} sm={6} md={6}>
                     <p> 1 hr - 5 days </p>
                   </Grid>
                   <Grid item xs={6} sm={6} md={7}>
@@ -335,21 +342,20 @@ export const Page1 = () => {
                     <h3> US$75.65 </h3>
                   </Grid>
                 </Grid>
-                <Grid container >
+                <Grid container>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonBuy">BUY NOW</button>
+                    <button className="ButtonBuy">BUY NOW</button>
                   </Grid>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
+                    <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
                   </Grid>
                 </Grid>
                 <br />
                 <p className="center">*One-off US$50.00 setup free applies.</p>
-               
               </Grid>
             </Grid>
           </Grid>
-       
+
           <Grid item sm={3} className="CardExplain">
             <Grid container>
               <Grid item md={12} className="CardExplainHeader">
@@ -357,34 +363,34 @@ export const Page1 = () => {
               </Grid>
               <Grid item md={12}>
                 <Grid container className="CardExplainBody">
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> CPU</p>
                   </Grid>
-                  <Grid className="left" item  xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x4 Cores 3.60GHz</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HP DL120 G7</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p>2 LFF bays</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p>RAM</p>
                   </Grid>
-                  <Grid className="left"  item xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 16GB DDR4</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HDD</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x120GB SSD</p>
                   </Grid>
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> TRAFFIC</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
@@ -397,7 +403,7 @@ export const Page1 = () => {
                   <Grid item xs={6} sm={6} md={6}>
                     <p> Availability</p>
                   </Grid>
-                  <Grid item  className="left" xs={5} sm={6} md={6}>
+                  <Grid item className="left" xs={5} sm={6} md={6}>
                     <p> 1 hr - 5 days </p>
                   </Grid>
                   <Grid item xs={6} sm={6} md={7}>
@@ -407,21 +413,20 @@ export const Page1 = () => {
                     {/* <h3> US$59.16 </h3> */}
                   </Grid>
                 </Grid>
-                <Grid container >
+                <Grid container>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonBuy">BUY NOW</button>
+                    <button className="ButtonBuy">BUY NOW</button>
                   </Grid>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
+                    <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
                   </Grid>
                 </Grid>
                 <br />
                 <p className="center">*One-off US$50.00 setup free applies.</p>
-               
               </Grid>
             </Grid>
           </Grid>
-       
+
           <Grid item sm={3} className="CardExplain">
             <Grid container>
               <Grid item md={12} className="CardExplainHeader">
@@ -429,34 +434,34 @@ export const Page1 = () => {
               </Grid>
               <Grid item md={12}>
                 <Grid container className="CardExplainBody">
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> CPU</p>
                   </Grid>
-                  <Grid className="left" item  xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 1x4 Cores 4.00GHz</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HP DL120 G7</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 4 LFF bays</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p>RAM</p>
                   </Grid>
-                  <Grid className="left"  item xs={5} sm={6} md={7}>
+                  <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 32GB DDR4</p>
                   </Grid>
 
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> HDD</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
                     <p> 2x480GB SSD</p>
                   </Grid>
-                  <Grid item xs={6} sm={6}  md={5}>
+                  <Grid item xs={6} sm={6} md={5}>
                     <p> TRAFFIC</p>
                   </Grid>
                   <Grid className="left" item xs={5} sm={6} md={7}>
@@ -469,7 +474,7 @@ export const Page1 = () => {
                   <Grid item xs={6} sm={6} md={6}>
                     <p> Availability</p>
                   </Grid>
-                  <Grid item  className="left" xs={5} sm={6} md={6}>
+                  <Grid item className="left" xs={5} sm={6} md={6}>
                     <p> 1 hr - 5 days </p>
                   </Grid>
                   <Grid item xs={6} sm={6} md={7}>
@@ -479,21 +484,189 @@ export const Page1 = () => {
                     <h3> US$138.70 </h3>
                   </Grid>
                 </Grid>
-                <Grid container >
+                <Grid container>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonBuy">BUY NOW</button>
+                    <button className="ButtonBuy">BUY NOW</button>
                   </Grid>
                   <Grid item className="ButtonWarp" md={6}>
-                  <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
+                    <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
                   </Grid>
                 </Grid>
                 <br />
                 <p className="center">*One-off US$50.00 setup free applies.</p>
-               
               </Grid>
             </Grid>
           </Grid>
-       
+        </Grid>
+      </Container>
+      <div className="ContainerSectionBuild">
+        <Container>
+          <Grid container className="SectionBuildBody">
+            <Grid item md={7}>
+              <h1>We’re Built Differently...</h1>
+              <Grid container>
+                <Grid item md={6} className="SecBuildCard">
+                  <h3>Priority & Platinum Traffic</h3>
+                  <p>
+                    Our network is built to ensure that traffic get’s to it’s
+                    destination In the most efficient way. By default, your
+                    traffic is handled by our premium priority network. Need
+                    more? Then consider our further enhanced platinum service.
+                  </p>
+                </Grid>
+                <Grid item md={6} className="SecBuildCard">
+                  <h3>Priority & Platinum Traffic</h3>
+                  <p>
+                    Our network is built to ensure that traffic get’s to it’s
+                    destination In the most efficient way. By default, your
+                    traffic is handled by our premium priority network. Need
+                    more? Then consider our further enhanced platinum service.
+                  </p>
+                </Grid>
+                <Grid item md={6} className="SecBuildCard">
+                  <h3>Priority & Platinum Traffic</h3>
+                  <p>
+                    Our network is built to ensure that traffic get’s to it’s
+                    destination In the most efficient way. By default, your
+                    traffic is handled by our premium priority network. Need
+                    more? Then consider our further enhanced platinum service.
+                  </p>
+                </Grid>
+                <Grid item md={6} className="SecBuildCard">
+                  <h3>Priority & Platinum Traffic</h3>
+                  <p>
+                    Our network is built to ensure that traffic get’s to it’s
+                    destination In the most efficient way. By default, your
+                    traffic is handled by our premium priority network. Need
+                    more? Then consider our further enhanced platinum service.
+                  </p>
+                </Grid>
+                <button className="buttonContatUs">Contact Us</button>
+              </Grid>
+            </Grid>
+            <Grid item md={5}></Grid>
+          </Grid>
+        </Container>
+      </div>
+      <Container maxWidth="xl" className="ContainerLocationWarp">
+        <Grid container className="OurLocationWarp">
+          <Grid item md={7} className="containerKananLocation">
+            <img
+              src={LocationBackground}
+              alt=""
+              className="imgLocationCostum"
+            />
+            <h1>Our Locations</h1>
+            <Grid container className="KananBody">
+              <Grid item sm={12} md={6}>
+                <Grid container direction="column">
+                  <Grid item className="LocationCard" md={12}>
+                    <div className="CardInside">
+                      <img src={iconLocation1} alt="" />
+                      <h2>New York</h2>
+                      <h3>60 Hudson st.Manhattan <br /> New York City</h3>
+                      <a href="">To the map</a>
+                    </div>
+                  </Grid>
+                  <Grid item className="LocationCard" md={12}>
+                    <div className="CardInside">
+                      <img src={iconLocation3} alt="" />
+                      <h2>Miami</h2>
+                      <h3>36 ne 2nd street, <br /> Miami, Florida</h3>
+                      <a href=""></a>
+                    </div>
+                  </Grid>
+                </Grid>
+              </Grid>
+              <Grid item sm={12} md={6} className="downBottom">
+                <Grid container direction="column">
+                  <Grid item className="LocationCard" md={12}>
+                    <div className="CardInside">
+                      <img src={iconLocation2} alt="" />
+                      <h2>Ashburn</h2>
+                      <h3>44274 round <br /> tableashburn, Virginia</h3>
+                      <a href="">To the map</a>
+                    </div>
+                  </Grid>
+                  <Grid item className="LocationCard" md={12}>
+                    <div className="CardInside">
+                      <img src={iconLocation4} alt="" />
+                      <h2>London</h2>
+                      <h3>20 lanrick rd, Poplar, London, <br /> United Kingdom</h3>
+                      <a href="">To the map</a>
+                    </div>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item md={5}>
+            <Grid container className="ContainerkiriLocation">
+              <Grid item md={12}>
+                <div className="IconSocial">
+                  <h4>Follow Us</h4>
+                  <img src={iconSocial} alt="" />
+                  <img src={iconSocial2} alt="" />
+                  <img src={iconSocial3} alt="" />
+                  <img src={iconSocial4} alt="" />
+                </div>
+              </Grid>
+              <Grid item md={12} className="ContactWarper WapSec">
+                <h1>Contacts</h1>
+                <div className="conatact">
+                  <h5>Support Portal</h5>
+                  <p> support.ultratelecom.net </p>
+                </div>
+                <div className="conatact">
+                  <h5>Phone Support</h5>
+                  <p>+1 (307) 200-8584 </p>
+                </div>
+                <div className="conatact">
+                  <h5>Email Support</h5>
+                  <p> support@ultratelecom.net </p>
+                </div>
+                <div className="conatact">
+                  <h5>Address</h5>
+                  <p>A 30N Gould ST, Sheridan, WY 82801, US</p>
+                </div>
+              </Grid>
+              <Grid item md={12} className="ContactWarper WapSec">
+                <h1>Get in Touch</h1>
+                <h3>Sign Up to our newletter</h3>
+                <div className="emailSubmit">
+                  <input type="text" placeholder="Your Email" />
+                  <button className="ButtonSignUp"> Sign Up</button>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Container>
+
+      <Container maxWidth={"xl"} className="footerContainer">
+        <Grid container>
+          <Grid item sm={12} md={2}>
+            <a href="">© 2022 Ultra.One</a>{" "}
+          </Grid>
+          <Grid item sm={12} md={8}>
+            <Grid container justifyContent="center">
+              <Grid item className="FooterA" sm={12} md={1}>
+                <a href="">Products</a>
+              </Grid>
+              <Grid item className="FooterA" sm={12} md={1}>
+                <a href="">About Us</a>
+              </Grid>
+              <Grid item className="FooterA" sm={12} md={1}>
+                <a href="">Our Network</a>
+              </Grid>
+              <Grid item className="FooterA" sm={12} md={1}>
+                <a href="">Contacts</a>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item sm={12} md={2}>
+            <a href="">Privacy Policy</a>{" "}
+          </Grid>
         </Grid>
       </Container>
     </div>

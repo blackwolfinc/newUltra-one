@@ -232,7 +232,7 @@
 
   h1 {
     font-family: "Red Hat Display", sans-serif;
-   
+
     width: 100%;
     font-style: normal;
     font-weight: bold;
@@ -308,13 +308,14 @@
         box-sizing: border-box;
         border-radius: 8px;
       }
-      button:hover{
-        background: #7272c0;color: #fff;
+      button:hover {
+        background: #7272c0;
+        color: #fff;
       }
-      button:hover::after{
+      button:hover::after {
         content: "";
-        width:17px;
-        height:20px;
+        width: 17px;
+        height: 20px;
         bottom: -0.3rem;
         left: 44%;
         display: flex;
@@ -322,9 +323,16 @@
         text-align: center;
         align-items: center;
         position: absolute;
-        background-color:#7272c0;
-        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
-        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 )
+        background-color: #7272c0;
+        -webkit-clip-path: polygon(
+          50% 0%,
+          100% 0,
+          100% 35%,
+          50% 70%,
+          0 35%,
+          0 0
+        );
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0);
       }
     }
   }
@@ -336,15 +344,14 @@
   width: 90%;
   border-bottom: 1px solid #25203fad;
 }
-.ColorDiverent{
-  color: #25203F !important;
+.ColorDiverent {
+  color: #25203f !important;
 }
 .CardExplainContainer {
   display: flex;
   justify-content: center;
   align-self: center;
   margin-bottom: 6rem;
-
 
   @media all and (min-width: 1440px) {
     .CardExplain {
@@ -398,7 +405,7 @@
     .CardExplainBody {
       padding: 1rem;
       border-bottom: 1px solid #25203f33;
-   
+
       p {
         font-family: "Red Hat Display", sans-serif;
         font-size: 16px;
@@ -468,5 +475,300 @@
       font-size: 18px;
       line-height: 24px;
     }
+  }
+}
+
+.ContainerSectionBuild {
+  background: url(../../Assets/img/background.png);
+  min-height: 54rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-top: -12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .buttonContatUs {
+    background: #25203f;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .SectionBuildBody {
+    // background-color: #2ccb58;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10rem;
+
+    h1 {
+      font-family: "Red Hat Display", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 44px;
+      line-height: 61px;
+      /* identical to box height */
+
+      color: #25203f;
+    }
+
+    .SecBuildCard {
+      padding: 1rem;
+      // background-color: #25203f;
+      transform: scale(1);
+
+      h3 {
+        font-family: "Red Hat Display", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        color: #25203f;
+      }
+      p {
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 137% */
+
+        color: rgba(37, 32, 63, 0.65);
+      }
+    }
+  }
+}
+.ContainerLocationWarp {
+  // background-color: rebeccapurple;
+  padding: 2rem;
+  .OurLocationWarp {
+    padding: 6rem;
+    min-height: 40rem !important;
+    .downBottom {
+      padding-top: 5rem !important;
+    }
+    .containerKananLocation {
+      padding: 2rem;
+      position: relative;
+      .imgLocationCostum {
+        position: absolute;
+        z-index: -10;
+        margin-left: -10rem;
+        margin-top: 5rem;
+        transform: scale(0.8);
+        width: -webkit-fill-available;
+      }
+      h1 {
+        margin-bottom: 5rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 61px;
+        font-family: "Red Hat Display", sans-serif;
+      }
+
+      .KananBody {
+        // background: url(../../Assets/img/Locations.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+        .LocationCard {
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          .CardInside{
+            // background-color: #2ccb58;
+            height: 100%;
+            min-height: 13rem !important;
+            width: 100%;
+            border-radius: 12px;
+            border: 4px solid rgba(109, 78, 155, 0.1);
+            transform: scale(0.9);
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+           img{
+             margin-bottom: -2rem;
+           }   
+
+           a{
+             margin-bottom: 3rem;
+           }
+           h3{
+             text-align: center;
+        
+           }
+
+          }
+        
+          transform: scale(0.9);
+          box-sizing: border-box;
+          border-radius: 12px;
+          background: #ffffff;
+          box-shadow: 0px 10px 24px rgba(63, 59, 86, 0.08);
+          border-radius: 12px;
+
+          h2 {
+            font-family: "Red Hat Display", sans-serif;
+
+            color: #7272c0;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 29px;
+          }
+          h3 {
+            font-family: "Red Hat Display", sans-serif;
+
+            color: #000000;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+          }
+          a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            font-family: "Red Hat Display", sans-serif;
+            color: #7272c0;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+.ContainerkiriLocation {
+  padding-left: 6rem;
+  padding-top: 3.8rem;
+
+  .WapSec {
+    margin-top: 4rem !important;
+  }
+  .IconSocial {
+    // background-color: #25203f;
+
+    color: rgba(63, 59, 86, 0.8);
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    width: 100%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    h4 {
+      margin-right: 2rem;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    img {
+      // max-width: 4rem;
+      width: 1.1rem;
+      height: 1rem;
+      margin: 0.5rem;
+    }
+  }
+  .ContactWarper {
+    h1 {
+      color: #25203f;
+      font-style: normal;
+      font-family: "Red Hat Display", sans-serif;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 61px;
+    }
+    h3 {
+      font-family: "Red Hat Display", sans-serif;
+
+      color: rgba(63, 59, 86, 0.8);
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    input {
+      padding: 0.8rem 1.5rem;
+      border-radius: 4px;
+      border: 1px solid gray;
+      margin-right: 2rem;
+    }
+
+    .ButtonSignUp {
+      padding: 0.8rem 2rem;
+      font-family: "Red Hat Display", sans-serif;
+      border: none;
+      background: #25203f;
+      font-size: 14px;
+      line-height: 19px;
+      border-radius: 4px;
+      color: #ffffff;
+    }
+    .conatact {
+      display: flex;
+      align-items: center;
+      h5 {
+        color: #25203f;
+        font-family: "Red Hat Display", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 3rem;
+        margin: 1rem 3rem 1rem 0rem;
+      }
+      p {
+        font-family: "Red Hat Display", sans-serif;
+        margin: 1rem 3rem 1rem 0rem;
+
+        color: #25203f;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.footerContainer {
+  border-top: 1px solid rgba(128, 128, 128, 0.432);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Red Hat Display", sans-serif;
+
+  line-height: 24px;
+  color: #25203F;
+  a {
+    text-decoration: none;
+    min-width: fit-content !important;
+  }
+
+  .FooterA {
+    padding: 0rem !important;
+    max-width: 10.333333%;
+    flex-basis: 10%;
   }
 }
