@@ -33,7 +33,12 @@
     margin-left: 2rem;
     margin-top: -2rem;
   }
+  button:hover{
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1) !important;
+    box-shadow: 0px 6px 12px #25203f!important;
 
+  }
   a {
     font-weight: 600;
     font-size: 16px;
@@ -89,6 +94,12 @@
       border-radius: 4px;
       font-family: "Red Hat Display", sans-serif;
     }
+    button:hover{
+      transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+      transform: scale(1) !important;
+      box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+  
+    }
   }
 }
 
@@ -128,6 +139,16 @@
       max-height: 6rem;
       margin-top: 1rem;
     }
+  }
+
+  .miniCard:hover{
+    transition: 400ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1.15) !important;
+    color: #25203F;
+   p{
+    font-weight: bold !important;
+   }
+
   }
 }
 
@@ -174,7 +195,7 @@
     flex-direction: column;
     text-align: left;
     max-width: 100% !important;
-
+    transform: scale(0.97) !important;
     @media all and (min-width: 1280px) {
       flex-basis: 31.5% !important;
     }
@@ -220,6 +241,12 @@
       font-size: 12px;
       line-height: 19px;
     }
+  }
+  .CardProduct:hover{
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1) !important;
+    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+
   }
 }
 
@@ -369,7 +396,7 @@
 
   .CardExplain {
     // background-color: #7272c0;
-    // transform: scale(0.95);
+    transform: scale(0.95) !important;
     display: flex;
     justify-content: center;
 
@@ -457,6 +484,14 @@
         line-height: 19px;
         border: 1px solid #25203f;
         border-radius: 4px;
+
+      }
+
+      .ButtonCUSTOMIZE:hover ,.ButtonBuy:hover{
+        transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+        transform: scale(1) !important;
+        box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+    
       }
     }
     h2 {
@@ -476,6 +511,13 @@
       line-height: 24px;
     }
   }
+  .CardExplain:hover{
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1) !important;
+    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+
+  }
+
 }
 
 .ContainerSectionBuild {
@@ -502,6 +544,13 @@
     font-size: 14px;
     line-height: 19px;
   }
+  .buttonContatUs:hover {
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1) !important;
+    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+  }
+
+
   .SectionBuildBody {
     // background-color: #2ccb58;
     display: flex;
