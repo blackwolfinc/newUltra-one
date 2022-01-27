@@ -13,11 +13,38 @@
     justify-content: space-between;
   }
 
+  .showHeaderText{
+    background-color: #7776c3;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 100Vh;
+    position: absolute;
+    left: 0px;
+    padding: 2rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+  
+    
+    .nav-itemHeader{
+      padding: 1rem 0rem;
+      a{
+        color: #fff !important;
+      }
+    }
+  }
+
+
+  @media all and (min-width: 1064px) {
+    .showHeaderText{display: none !important;}
+    
+  }
   @media all and (max-width: 1064px) {
     .HeaderBody,
     .HeaderButton {
       display: none !important;
     }
+   
     .ContainerHeaderLogo{
       justify-content: space-between !important;
     }
