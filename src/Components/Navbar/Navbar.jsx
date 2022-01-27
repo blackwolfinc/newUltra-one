@@ -3,7 +3,7 @@ import { Container, Grid, Link } from "@material-ui/core";
 import logo from "../../Assets/img/LogoUltra.png";
 import DehazeIcon from "@material-ui/icons/Dehaze";
 export const Navbar = () => {
-  const [OpenModal, setOpenModal] = useState(true);
+  const [OpenModal, setOpenModal] = useState(false);
   return (
     <div>
       <Container maxWidth={"lg"}>
