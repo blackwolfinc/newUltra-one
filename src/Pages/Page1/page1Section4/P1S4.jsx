@@ -68,10 +68,10 @@ export const P1S4 = () => {
             </Grid>
           </Grid>
           <Grid container>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp" xs={12} sm={12} md={6}>
               <button className="ButtonBuy">BUY NOW</button>
             </Grid>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
             </Grid>
           </Grid>
@@ -144,10 +144,10 @@ export const P1S4 = () => {
             </Grid>
           </Grid>
           <Grid container>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonBuy">BUY NOW</button>
             </Grid>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
             </Grid>
           </Grid>
@@ -221,10 +221,10 @@ export const P1S4 = () => {
             </Grid>
           </Grid>
           <Grid container>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonBuy">BUY NOW</button>
             </Grid>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
             </Grid>
           </Grid>
@@ -298,10 +298,10 @@ export const P1S4 = () => {
             </Grid>
           </Grid>
           <Grid container>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonBuy">BUY NOW</button>
             </Grid>
-            <Grid item className="ButtonWarp" md={6}>
+            <Grid item className="ButtonWarp"  xs={12} sm={12} md={6}>
               <button className="ButtonCUSTOMIZE">CUSTOMIZE*</button>
             </Grid>
           </Grid>

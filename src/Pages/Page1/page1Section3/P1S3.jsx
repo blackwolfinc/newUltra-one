@@ -6,6 +6,7 @@ export const P1S3 = () => {
   <Grid container>
     <Grid
       item
+      xs={12}
       sm={12}
       md={12}
       data-aos="fade-down"

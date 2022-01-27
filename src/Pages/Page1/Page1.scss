@@ -114,6 +114,13 @@
       border-radius: 4px;
       font-family: "Red Hat Display", sans-serif;
     }
+
+@media all and (max-width:425px) {
+  button{width: 100% !important;}
+
+}
+    
+
     button:hover {
       transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
       transform: scale(1) !important;
@@ -472,6 +479,14 @@
       display: flex;
       justify-content: center;
       margin: 1rem 0rem;
+
+      @media all and (max-width: 768px) { 
+          .ButtonBuy , .ButtonCUSTOMIZE{
+            width:  100% !important;
+          }
+
+      }
+
       .ButtonBuy {
         font-family: "Red Hat Display", sans-serif;
         padding: 0.5rem 2rem;
@@ -558,6 +573,14 @@
     font-size: 14px;
     line-height: 19px;
   }
+
+  @media all and (max-width: 425px) { 
+
+      .buttonContatUs{
+        width: 100% !important;
+        margin-bottom: 2rem;
+      }
+   }
   .buttonContatUs:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
