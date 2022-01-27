@@ -13,6 +13,22 @@
     justify-content: space-between;
   }
 
+  @media all and (max-width: 1064px) {
+    .HeaderBody,
+    .HeaderButton {
+      display: none !important;
+    }
+    .ContainerHeaderLogo{
+      justify-content: space-between !important;
+    }
+    .HeaderButton2{
+      display: block !important;
+    }
+  }
+.HeaderButton2{
+  justify-self: end;
+  display: none;
+}
   .HeaderBody {
     .Number {
       text-align: center;
@@ -23,10 +39,9 @@
       min-width: fit-content;
     }
     .nav-itemHeader:hover {
-     transform: scale(1.1);
-    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
-    filter: drop-shadow(10px 5px 4px #4444dd62);
-
+      transform: scale(1.1);
+      transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+      filter: drop-shadow(10px 5px 4px #4444dd62);
     }
   }
 
@@ -39,11 +54,10 @@
     margin-left: 2rem;
     margin-top: -2rem;
   }
-  button:hover{
+  button:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
-    box-shadow: 0px 6px 12px #25203f!important;
-
+    box-shadow: 0px 6px 12px #25203f !important;
   }
   a {
     font-weight: 600;
@@ -100,11 +114,10 @@
       border-radius: 4px;
       font-family: "Red Hat Display", sans-serif;
     }
-    button:hover{
+    button:hover {
       transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
       transform: scale(1) !important;
-      box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
-  
+      box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
     }
   }
 }
@@ -147,14 +160,13 @@
     }
   }
 
-  .miniCard:hover{
+  .miniCard:hover {
     transition: 400ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1.15) !important;
-    color: #25203F;
-   p{
-    font-weight: bold !important;
-   }
-
+    color: #25203f;
+    p {
+      font-weight: bold !important;
+    }
   }
 }
 
@@ -248,11 +260,10 @@
       line-height: 19px;
     }
   }
-  .CardProduct:hover{
+  .CardProduct:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
-    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
-
+    box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
   }
 }
 
@@ -490,14 +501,13 @@
         line-height: 19px;
         border: 1px solid #25203f;
         border-radius: 4px;
-
       }
 
-      .ButtonCUSTOMIZE:hover ,.ButtonBuy:hover{
+      .ButtonCUSTOMIZE:hover,
+      .ButtonBuy:hover {
         transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
         transform: scale(1) !important;
-        box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
-    
+        box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
       }
     }
     h2 {
@@ -517,13 +527,11 @@
       line-height: 24px;
     }
   }
-  .CardExplain:hover{
+  .CardExplain:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
-    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
-
+    box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
   }
-
 }
 
 .ContainerSectionBuild {
@@ -553,9 +561,8 @@
   .buttonContatUs:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
-    box-shadow: 0px 12px 24px rgba(37 ,32, 63 , 6%);
+    box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
   }
-
 
   .SectionBuildBody {
     // background-color: #2ccb58;
@@ -605,13 +612,16 @@
   // background-color: rebeccapurple;
   padding: 2rem;
 
-  @media all and (max-width:1020px) {
-    
-    .OurLocationWarp , .ContainerkiriLocation{padding: 0rem !important;} 
-  
-    .imgLocationCostum{ transform: scale(0) !important;}
+  @media all and (max-width: 1020px) {
+    .OurLocationWarp,
+    .ContainerkiriLocation {
+      padding: 0rem !important;
+    }
+
+    .imgLocationCostum {
+      transform: scale(0) !important;
+    }
   }
-    
 
   .OurLocationWarp {
     padding: 6rem;
@@ -646,13 +656,12 @@
         background-repeat: no-repeat;
 
         .LocationCard {
-          
           display: flex;
           justify-content: center;
           align-items: center;
           text-align: center;
           flex-direction: column;
-          .CardInside{
+          .CardInside {
             // background-color: #2ccb58;
             height: 100%;
             min-height: 13rem !important;
@@ -662,20 +671,18 @@
             transform: scale(0.9);
             padding-bottom: 2rem;
             padding-top: 1rem;
-           img{
-             margin-bottom: -2rem;
-           }   
+            img {
+              margin-bottom: -2rem;
+            }
 
-           a{
-             margin-bottom: 3rem;
-           }
-           h3{
-             text-align: center;
-        
-           }
-
+            a {
+              margin-bottom: 3rem;
+            }
+            h3 {
+              text-align: center;
+            }
           }
-        
+
           transform: scale(0.9);
           box-sizing: border-box;
           border-radius: 12px;
@@ -824,7 +831,7 @@
   font-family: "Red Hat Display", sans-serif;
   background-color: #fff;
   line-height: 24px;
-  color: #25203F;
+  color: #25203f;
   margin-top: 5rem;
   a {
     text-decoration: none;
@@ -836,27 +843,24 @@
     max-width: 10.333333%;
     flex-basis: 10%;
   }
-  .FooterContainer{
+  .FooterContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  
+
   @media all and (max-width: 1024px) {
-    
-    .FooterA{   
-      max-width:none !important;
-      flex-basis: auto !important;}
+    .FooterA {
+      max-width: none !important;
+      flex-basis: auto !important;
+    }
 
-      .FooterContainer{
-        display: flex;
-        flex-direction: column !important;
-        justify-content: center;
-        align-items: center;
-      }
-   }
-
-   
-
+    .FooterContainer {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

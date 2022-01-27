@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Grid, Link } from "@material-ui/core";
 import logo from "../../Assets/img/LogoUltra.png";
-
+import DehazeIcon from '@material-ui/icons/Dehaze';
 export const Navbar = () => {
   return (
     <div>
       <Container maxWidth={"lg"}>
-        <Grid data-aos="fade-up" data-aos-duration="1000" container>
-          <Grid item sm={12} md={5} className="HeaderLogo">
+        <Grid data-aos="fade-up" data-aos-duration="1000" container className="ContainerHeaderLogo">
+          <Grid item sm={10} md={5} className="HeaderLogo">
             <img src={logo} alt="" />
           </Grid>
           <Grid item sm={12} md={5} className="HeaderBody">
@@ -27,8 +27,11 @@ export const Navbar = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item sm={12} md={2} className="">
+          <Grid item sm={12} md={2} className="HeaderButton">
             <button>CONTACT US</button>
+          </Grid>
+          <Grid item sm={2} md={5} className="HeaderButton2">
+            <button><DehazeIcon/></button>
           </Grid>
         </Grid>
       </Container>
