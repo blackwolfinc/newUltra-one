@@ -22,6 +22,12 @@
       text-align: center;
       min-width: fit-content;
     }
+    .nav-itemHeader:hover {
+     transform: scale(1.1);
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    filter: drop-shadow(10px 5px 4px #4444dd62);
+
+    }
   }
 
   button {
@@ -598,6 +604,15 @@
 .ContainerLocationWarp {
   // background-color: rebeccapurple;
   padding: 2rem;
+
+  @media all and (max-width:1020px) {
+    
+    .OurLocationWarp , .ContainerkiriLocation{padding: 0rem !important;} 
+  
+    .imgLocationCostum{ transform: scale(0) !important;}
+  }
+    
+
   .OurLocationWarp {
     padding: 6rem;
     min-height: 40rem !important;
@@ -821,4 +836,27 @@
     max-width: 10.333333%;
     flex-basis: 10%;
   }
+  .FooterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media all and (max-width: 1024px) {
+    
+    .FooterA{   
+      max-width:none !important;
+      flex-basis: auto !important;}
+
+      .FooterContainer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+      }
+   }
+
+   
+
 }

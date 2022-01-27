@@ -12,17 +12,17 @@ export const Navbar = () => {
           </Grid>
           <Grid item sm={12} md={5} className="HeaderBody">
             <Grid container spacing={1}>
-              <Grid item sm={12} md={2}>
+              <Grid className="nav-itemHeader" item sm={12} md={2}>
                 <a href="">Products</a>
               </Grid>
-              <Grid className="width" item sm={12} md={3}>
+              <Grid className=" width nav-itemHeader" item sm={12} md={3}>
                 <a href="">Our network</a>
               </Grid>
-              <Grid item sm={12} md={3}>
+              <Grid className=" nav-itemHeader" item sm={12} md={3}>
                 <a href="">About us</a>
               </Grid>
 
-              <Grid className="Number" item sm={12} md={4}>
+              <Grid className="Number nav-itemHeader" item sm={12} md={4}>
                 <a href="">8(555) 560-9998</a>
               </Grid>
             </Grid>

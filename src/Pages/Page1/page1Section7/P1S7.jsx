@@ -16,16 +16,17 @@ export const P1S7 = () => {
         <Grid
           item
           md={7}
+          sm={12}
           className="containerKananLocation"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="1800"
         >
           <img src={LocationBackground} alt="" className="imgLocationCostum" />
           <h1>Our Locations</h1>
           <Grid container className="KananBody">
-            <Grid item sm={12} md={6}>
+            <Grid item xs={12} sm={12} md={6}>
               <Grid container direction="column">
-                <Grid item className="LocationCard" md={12}>
+                <Grid item className="LocationCard" xs={12} sm={12} md={12}>
                   <div className="CardInside">
                     <img src={iconLocation1} alt="" />
                     <h2>New York</h2>
@@ -35,7 +36,7 @@ export const P1S7 = () => {
                     <a href="">To the map</a>
                   </div>
                 </Grid>
-                <Grid item className="LocationCard" md={12}>
+                <Grid item className="LocationCard" sm={12} md={12}>
                   <div className="CardInside">
                     <img src={iconLocation3} alt="" />
                     <h2>Miami</h2>
@@ -47,9 +48,9 @@ export const P1S7 = () => {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item sm={12} md={6} className="downBottom">
+            <Grid item  xs={12} sm={12} md={6} className="downBottom">
               <Grid container direction="column">
-                <Grid item className="LocationCard" md={12}>
+                <Grid item className="LocationCard" sm={12} md={12}>
                   <div className="CardInside">
                     <img src={iconLocation2} alt="" />
                     <h2>Ashburn</h2>
@@ -59,7 +60,7 @@ export const P1S7 = () => {
                     <a href="">To the map</a>
                   </div>
                 </Grid>
-                <Grid item className="LocationCard" md={12}>
+                <Grid item className="LocationCard" sm={12} md={12}>
                   <div className="CardInside">
                     <img src={iconLocation4} alt="" />
                     <h2>London</h2>
@@ -73,12 +74,12 @@ export const P1S7 = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item md={5}>
+        <Grid item sm={12} md={5}>
           <Grid container className="ContainerkiriLocation">
             <Grid item md={12}>
               <div
                 className="IconSocial"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="800"
               >
                 <h4>Follow Us</h4>
@@ -91,8 +92,9 @@ export const P1S7 = () => {
             <Grid
               item
               md={12}
+              sm={12}
               className="ContactWarper WapSec"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1500"
             >
               <h1>Contacts</h1>
@@ -116,8 +118,9 @@ export const P1S7 = () => {
             <Grid
               item
               md={12}
+              sm={12}
               className="ContactWarper WapSec"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1800"
             >
               <h1>Get in Touch</h1>
