@@ -4,6 +4,8 @@ import React from 'react';
 export const P1S6 = () => {
   return     <Container>
   <Grid container className="SectionBuildBody">
+   
+    <Grid item md={5}></Grid>
     <Grid item md={7}>
       <h1 data-aos="fade-down" data-aos-duration="800">
         We’re Built Differently...
@@ -53,7 +55,6 @@ export const P1S6 = () => {
         <button className="buttonContatUs"    data-aos="fade-up" data-aos-duration="800">Contact Us</button>
       </Grid>
     </Grid>
-    <Grid item md={5}></Grid>
   </Grid>
 </Container>;
 };

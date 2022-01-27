@@ -37,7 +37,7 @@
 
   @media all and (min-width: 1064px) {
     .showHeaderText{display: none !important;}
-    
+
   }
   @media all and (max-width: 1064px) {
     .HeaderBody,
@@ -577,16 +577,17 @@
 }
 
 .ContainerSectionBuild {
-  background: url(../../Assets/img/background.png);
+  background: url(../../Assets/img/WeBuilt.png);
   min-height: 54rem;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: unset;
   background-size: cover;
 
   margin-top: -12rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
   .buttonContatUs {
     background: #25203f;

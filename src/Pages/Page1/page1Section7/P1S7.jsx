@@ -21,7 +21,7 @@ export const P1S7 = () => {
           data-aos="fade-up"
           data-aos-duration="1800"
         >
-          <img src={LocationBackground} alt="" className="imgLocationCostum" />
+          {/* <img src={LocationBackground} alt="" className="imgLocationCostum" /> */}
           <h1>Our Locations</h1>
           <Grid container className="KananBody">
             <Grid item xs={12} sm={12} md={6}>
