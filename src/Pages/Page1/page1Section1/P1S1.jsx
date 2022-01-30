@@ -20,11 +20,9 @@ export const P1S1 = () => {
     >
       <h1>We’re built differently</h1>
       <p>
-        Experience uncompromising performance with our bare-metal
-        servers. Let’s discuss what we can build and make possible for
-        you
+      Experience uncompromising performance with our bare-metal servers. Let’s discuss what we can build and make possible for you
       </p>
-      <button>COMING SOON</button>
+      <button>SHOP SERVERS</button>
     </Grid>
   </Grid>
   {/* pemisah */}
@@ -61,7 +59,7 @@ export const P1S1 = () => {
       data-aos-duration="1800"
     >
       <img src={icon2}></img>
-      <p>GLOBALLY MULTI-SITE LAN</p>
+      <p>GLOBALLY <br /> MULTI-SITE LAN</p>
     </Grid>
     <Grid
       className="miniCard"

@@ -521,7 +521,7 @@
       p {
         font-family: "Red Hat Display", sans-serif;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 12px;
         color: #25203f;
         width: 100%;
       }
@@ -633,6 +633,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
+    margin-left: 4.5rem;
   }
 
   @media all and (max-width: 425px) {
@@ -665,12 +666,21 @@
 
       color: #25203f;
     }
-
+    .leftCard{
+      // margin-right: -5rem !important;
+    }
     .SecBuildCard {
       padding: 1rem;
+      margin: auto;
       // background-color: #25203f;
       transform: scale(1);
-
+      
+      img{
+        max-width: 5rem;
+        position: absolute;
+        left: -3rem;
+        top: 2.2rem;
+      }
       h3 {
         font-family: "Red Hat Display", sans-serif;
         font-style: normal;
