@@ -11,51 +11,51 @@
   .HeaderLogo {
     display: flex;
     justify-content: space-between;
+    filter: drop-shadow(1.1px 1px 1px #25203fc4);
   }
 
-  .showHeaderText{
+  .showHeaderText {
     background-color: #7776c3;
     margin-top: 2rem;
     width: 100%;
-    min-height: 100Vh;
+    min-height: 100vh;
     position: absolute;
     left: 0px;
     padding: 2rem;
     z-index: 9999;
     display: flex;
     flex-direction: column;
-  
-    
-    .nav-itemHeader{
+
+    .nav-itemHeader {
       padding: 1rem 0rem;
-      a{
+      a {
         color: #fff !important;
       }
     }
   }
 
-
   @media all and (min-width: 1064px) {
-    .showHeaderText{display: none !important;}
-
+    .showHeaderText {
+      display: none !important;
+    }
   }
   @media all and (max-width: 1064px) {
     .HeaderBody,
     .HeaderButton {
       display: none !important;
     }
-   
-    .ContainerHeaderLogo{
+
+    .ContainerHeaderLogo {
       justify-content: space-between !important;
     }
-    .HeaderButton2{
+    .HeaderButton2 {
       display: block !important;
     }
   }
-.HeaderButton2{
-  justify-self: end;
-  display: none;
-}
+  .HeaderButton2 {
+    justify-self: end;
+    display: none;
+  }
   .HeaderBody {
     .Number {
       text-align: center;
@@ -80,6 +80,22 @@
     color: #fff;
     margin-left: 2rem;
     margin-top: -2rem;
+  }
+
+  .HeaderButton2 {
+    button {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-content: center;
+      background-color: #7272c0;
+      padding: 0.5rem 0.5rem;
+      border-radius: 12px;
+      margin-top: -0.5rem;
+      margin-left: 0rem;
+      right: 1rem;
+      color: #fff;
+    }
   }
   button:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
@@ -142,11 +158,11 @@
       font-family: "Red Hat Display", sans-serif;
     }
 
-@media all and (max-width:425px) {
-  button{width: 100% !important;}
-
-}
-    
+    @media all and (max-width: 425px) {
+      button {
+        width: 100% !important;
+      }
+    }
 
     button:hover {
       transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
@@ -188,16 +204,26 @@
     align-self: center;
 
     img {
-      max-width: 6rem;
-      max-height: 6rem;
-      margin-top: 1rem;
+      max-width: 3rem;
+      max-height: 3rem;
+      margin: 1rem;
+      filter: drop-shadow(2px 2px 5px #25203f81);
+      // border: 3px solid rgb(255, 255, 255);
+      // border-bottom: 3px solid #fff;
+      // border-bottom-style: solid;
+      opacity: 0.9;
+      border-radius: 18px;
     }
   }
 
   .miniCard:hover {
     transition: 400ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1.15) !important;
-    color: #25203f;
+    img {
+      opacity: 1 !important;
+    }
+
+    color: #666181;
     p {
       font-weight: bold !important;
     }
@@ -374,6 +400,13 @@
     .ButtonCountry {
       margin: 0rem 0rem;
       position: relative;
+      @media all and (max-width: 1024px) and (min-width: 425px) {
+        width: 25%;
+      }
+      @media all and (max-width: 727px)and (min-width: 0px) {
+        width: 50%;
+      }
+
       button {
         padding: 0.5rem 1rem;
         min-width: max-content;
@@ -385,6 +418,7 @@
         border: 2px solid #7272c0;
         box-sizing: border-box;
         border-radius: 8px;
+        width: -webkit-fill-available;
       }
       button:hover {
         background: #7272c0;
@@ -507,11 +541,11 @@
       justify-content: center;
       margin: 1rem 0rem;
 
-      @media all and (max-width: 768px) { 
-          .ButtonBuy , .ButtonCUSTOMIZE{
-            width:  100% !important;
-          }
-
+      @media all and (max-width: 768px) {
+        .ButtonBuy,
+        .ButtonCUSTOMIZE {
+          width: 100% !important;
+        }
       }
 
       .ButtonBuy {
@@ -587,7 +621,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 
   .buttonContatUs {
     background: #25203f;
@@ -602,13 +635,12 @@
     line-height: 19px;
   }
 
-  @media all and (max-width: 425px) { 
-
-      .buttonContatUs{
-        width: 100% !important;
-        margin-bottom: 2rem;
-      }
-   }
+  @media all and (max-width: 425px) {
+    .buttonContatUs {
+      width: 100% !important;
+      margin-bottom: 2rem;
+    }
+  }
   .buttonContatUs:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
