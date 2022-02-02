@@ -642,7 +642,7 @@ border-radius: 12px;
   .CardExplain:hover {
     transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
     transform: scale(1) !important;
-    box-shadow: 0px 12px 24px rgba(37, 32, 63, 6%);
+    box-shadow: 0px 12px 24px #8282a7;
   }
 }
 
@@ -872,6 +872,12 @@ border-radius: 12px;
             text-decoration: none;
           }
         }
+        .LocationCard:hover{
+          transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+          transform: scale(0.95) !important;
+          box-shadow: 0px 12px 24px #dcdcf3;
+      
+        }
       }
     }
   }
@@ -999,7 +1005,7 @@ border-radius: 12px;
   font-weight: 500;
   font-size: 12px;
   font-family: "Red Hat Display", sans-serif;
-  background-color: #fff;
+  background: #F3F0F9;
   line-height: 24px;
   color: #25203f;
   margin-top: 5rem;
@@ -1033,4 +1039,9 @@ border-radius: 12px;
       align-items: center;
     }
   }
+}
+
+.bottomSection{
+  background: #F3F0F9;
+  background: linear-gradient(360deg, #F2EEF8 0%, rgba(255, 255, 255, 0) 52.77%);
 }

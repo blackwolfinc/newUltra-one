@@ -24,8 +24,11 @@ export const Page1 = () => {
       <div className="ContainerSectionBuild">
       <P1S6/>
       </div>
+      <div className="bottomSection">
       <P1S7/>
       <P1S8/>
+      </div>
+ 
     </div>
   );
 };

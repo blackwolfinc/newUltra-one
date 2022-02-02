@@ -32,7 +32,7 @@ export const P1S2 = () => {
         data-aos-duration="600"
       >
         <img src={iconP1} alt="" />
-        <h1> Baremetal Servers</h1>
+        <h1> Baremetal <br /> Servers</h1>
         {/* <p>
           {" "}
           Experience uncompromising performance with our bare-metal
