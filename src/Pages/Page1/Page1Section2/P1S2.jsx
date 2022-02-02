@@ -32,13 +32,8 @@ export const P1S2 = () => {
         data-aos-duration="600"
       >
         <img src={iconP1} alt="" />
-        <h1> Baremetal <br /> Servers</h1>
-        {/* <p>
-          {" "}
-          Experience uncompromising performance with our bare-metal
-          servers. Our servers by default are packaged with our Unlimited
-          priority traffic plan
-        </p> */}
+        <h1> Baremetal Servers</h1>
+ 
       
       </Grid>
       <Grid
