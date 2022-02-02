@@ -31,7 +31,7 @@ export const P1S7 = () => {
                     <img src={iconLocation1} alt="" />
                     <h2>New York</h2>
                     <h3>
-                      60 Hudson st.Manhattan <br /> New York City
+                    New York City
                     </h3>
                     <a href="">To the map</a>
                   </div>
@@ -41,9 +41,10 @@ export const P1S7 = () => {
                     <img src={iconLocation3} alt="" />
                     <h2>Miami</h2>
                     <h3>
-                      36 ne 2nd street, <br /> Miami, Florida
+                    Florida
                     </h3>
-                    <a href=""></a>
+                    <a href="">To the map</a>
+
                   </div>
                 </Grid>
               </Grid>
@@ -55,7 +56,7 @@ export const P1S7 = () => {
                     <img src={iconLocation2} alt="" />
                     <h2>Ashburn</h2>
                     <h3>
-                      44274 round <br /> tableashburn, Virginia
+                    Virginia
                     </h3>
                     <a href="">To the map</a>
                   </div>
@@ -65,7 +66,7 @@ export const P1S7 = () => {
                     <img src={iconLocation4} alt="" />
                     <h2>London</h2>
                     <h3>
-                      20 lanrick rd, Poplar, London, <br /> United Kingdom
+                    United Kingdom
                     </h3>
                     <a href="">To the map</a>
                   </div>

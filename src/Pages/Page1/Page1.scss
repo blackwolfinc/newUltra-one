@@ -734,6 +734,13 @@
         
       }
 
+      @media all and (max-width :425px) {
+        img{
+          max-width: 3.2rem;
+        }
+        
+      }
+
       p {
         font-family: "Red Hat Display", sans-serif;
         font-weight: normal;
