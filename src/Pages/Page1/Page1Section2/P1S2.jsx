@@ -23,7 +23,7 @@ export const P1S2 = () => {
         priority traffic plan
       </p>
     </Grid>
-    <Grid container spacing={5}>
+    <Grid container spacing={1}>
       <Grid
         item
         sm={12}

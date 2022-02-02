@@ -61,7 +61,8 @@ export const P1S4 = () => {
               <p> 1 hr - 5 days </p>
             </Grid>
             <Grid item xs={6} sm={6} md={7}>
-              <h2> US$41.41 pm</h2>
+            
+              <div className='TimePm'> <h2> US$41.41 </h2> <p>pm</p></div>
             </Grid>
             <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
               <h3> US$59.16 </h3>
@@ -137,7 +138,9 @@ export const P1S4 = () => {
               <p> 1 hr - 5 days </p>
             </Grid>
             <Grid item xs={6} sm={6} md={7}>
-              <h2>US$60.52 pm</h2>
+          
+              <div className='TimePm'> <h2> US$60.52 </h2> <p>pm</p></div>
+
             </Grid>
             <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
               <h3> US$75.65 </h3>
@@ -214,9 +217,9 @@ export const P1S4 = () => {
               <p> 1 hr - 5 days </p>
             </Grid>
             <Grid item xs={6} sm={6} md={7}>
-              <h2 className="ColorDiverent"> US$73.71 pm</h2>
+              <div className=' TimePm '> <h2 className='ColorDiverent'>US$73.71 </h2> <p className='ColorDiverent'>pm</p></div>
             </Grid>
-            <Grid item sm={6} className="left" xs={5} sm={6} md={6}>
+            <Grid item sm={12} className="left" xs={5} sm={6} md={6}>
               {/* <h3> US$59.16 </h3> */}
             </Grid>
           </Grid>
@@ -291,7 +294,7 @@ export const P1S4 = () => {
               <p> 1 hr - 5 days </p>
             </Grid>
             <Grid item xs={6} sm={6} md={7}>
-              <h2> US$110.96 pm</h2>
+           <div className='TimePm'> <h2> US$110.96</h2> <p>pm</p></div>
             </Grid>
             <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
               <h3> US$138.70 </h3>

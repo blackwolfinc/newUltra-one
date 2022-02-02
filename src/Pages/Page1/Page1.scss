@@ -517,7 +517,7 @@
     .CardExplainBody {
       padding: 1rem;
       border-bottom: 1px solid #25203f33;
-
+    
       p {
         font-family: "Red Hat Display", sans-serif;
         font-size: 16px;
@@ -528,12 +528,24 @@
     }
     .CardExplainBottom {
       padding: 1rem;
+      width: -webkit-fill-available;
       p {
         color: rgba(37, 32, 63, 0.65);
         font-family: "Red Hat Display", sans-serif;
 
         font-size: 16px;
         line-height: 21px;
+      }
+
+      .TimePm{
+        font-size: 14px;
+        display: flex;
+        justify-content: left;
+        align-items: baseline;
+        p{
+          margin-left: 5px;
+          color: #2ccb58;
+        }
       }
     }
     .ButtonWarp {
@@ -599,6 +611,7 @@
       font-family: "Red Hat Display", sans-serif;
       color: #25203f;
       text-decoration-line: line-through;
+      padding-top: 0.5rem;
       font-size: 18px;
       line-height: 24px;
     }
@@ -611,7 +624,12 @@
 }
 
 .ContainerSectionBuild {
-  background: url(../../Assets/img/WeBuilt.png);
+  background: url(../../Assets/img/WeBuilt.png) ;
+
+  @media all and (max-width: 1024px) { 
+    background:linear-gradient(rgba(231, 231, 231, 0.89), #aaaad1da), url(../../Assets/img/WeBuilt.png) ;
+    padding-bottom: 3rem;
+   }
   min-height: 54rem;
   background-repeat: no-repeat;
   background-position: unset;
@@ -640,6 +658,11 @@
     .buttonContatUs {
       width: 100% !important;
       margin-bottom: 2rem;
+      margin-left: -0.5rem;
+    }
+
+    .SectionBuildBody{
+      padding-left: 1.5rem;
     }
   }
   .buttonContatUs:hover {
@@ -673,13 +696,14 @@
       padding: 1rem;
       margin: auto;
       // background-color: #25203f;
-      transform: scale(1);
+      transform: scale(0.93);
       
       img{
-        max-width: 5rem;
-        position: absolute;
-        left: -3rem;
-        top: 2.2rem;
+        max-width: 4.2rem;
+        position: relative;
+        left: -3.1rem;
+        top: 1.5rem;
+        filter: drop-shadow(1.1px 1px 1px #25203fc4);
       }
       h3 {
         font-family: "Red Hat Display", sans-serif;

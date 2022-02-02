@@ -9,10 +9,11 @@ export const P1S1 = () => {
   return     <Container>
   <Navbar />
   <Grid container className="Page1Body">
-    <Grid item md={6}></Grid>
+    <Grid item xs={0} md={6}></Grid>
     {/* Header Text */}
     <Grid
       item
+      xs={12}
       md={6}
       className="Page1HeaderText"
       data-aos="fade-left"

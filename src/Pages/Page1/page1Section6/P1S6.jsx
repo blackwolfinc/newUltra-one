@@ -6,20 +6,20 @@ import logo3 from "../../../Assets/Icon/iconDraft/iconCard3.png";
 import logo4 from "../../../Assets/Icon/iconDraft/iconCard4.png";
 export const P1S6 = () => {
   return (
-    <Container>
+    <Container maxWidth="xl">
       <Grid container className="SectionBuildBody">
-        <Grid item md={0} lg={4}></Grid>
-        <Grid item md={12} lg={8}>
+        <Grid item md={0} lg={5}></Grid>
+        <Grid item md={12} lg={7}>
           <h1 data-aos="fade-down" data-aos-duration="800">
             We’re Built Differently...
           </h1>
           <Grid container>
             <Grid item md={6} className="SecBuildCard">
               <Grid container>
-                <Grid item md={4} lg={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo1} alt="" />
                 </Grid>
-                <Grid item md={6} lg={11}>
+                <Grid item xs={11} sm={11} md={11}  lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Priority & Platinum Traffic
                   </h3>
@@ -34,10 +34,10 @@ export const P1S6 = () => {
             </Grid>
             <Grid item md={6} className="SecBuildCard leftCard">
               <Grid container>
-                <Grid item  md={4} lg={1}>
+                <Grid item xs={1} sm={1}  md={1} lg={1}>
                   <img src={logo3} alt="" />
                 </Grid>
-                <Grid item md={6} lg={11}>
+                <Grid item xs={11} sm={11} md={11}  lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Ambitious Customer Support
                   </h3>
@@ -53,10 +53,10 @@ export const P1S6 = () => {
             </Grid>
             <Grid item md={6} className="SecBuildCard">
               <Grid container>
-                <Grid item md={4} lg={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo2} alt="" />
                 </Grid>
-                <Grid item md={6} lg={11}>
+                <Grid item xs={11} sm={11} md={11} lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Global VPLS Network
                   </h3>
@@ -71,10 +71,10 @@ export const P1S6 = () => {
             </Grid>
             <Grid item md={6} className="SecBuildCard leftCard">
               <Grid container>
-                <Grid item md={4} lg={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo4} alt="" />
                 </Grid>
-                <Grid item md={6} lg={11}>
+                <Grid item xs={11} sm={11} md={11}  lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Custom Solution Friendly
                   </h3>
