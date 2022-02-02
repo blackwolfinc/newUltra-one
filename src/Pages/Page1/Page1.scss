@@ -279,12 +279,17 @@
   }
 
   .CardProduct {
-    background-color: #eeeeff;
+    background-color: #FFFFFF;
     border-radius: 12px;
-    padding: 2.5rem 2.5rem !important;
-    min-height: 17rem;
+    padding: 1rem 1rem !important;
+    border: 4px solid rgba(114, 114, 192, 0.12);
+border-radius: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    // min-height: 10rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     max-width: 100% !important;
     transform: scale(0.97) !important;
@@ -300,7 +305,9 @@
 
     img {
       max-width: 4.5rem;
-    }
+      filter: drop-shadow(1.1px 2px 4px rgba(114, 114, 192, 0.12));
+      margin-right: 2rem;
+    } 
 
     h1 {
       font-family: "Red Hat Display", sans-serif;
@@ -310,6 +317,8 @@
       line-height: 29px;
 
       color: #25203f;
+      max-width: 60%;
+      min-width: 60%;
     }
 
     p {

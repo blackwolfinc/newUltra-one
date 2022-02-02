@@ -33,13 +33,13 @@ export const P1S2 = () => {
       >
         <img src={iconP1} alt="" />
         <h1> Baremetal Servers</h1>
-        <p>
+        {/* <p>
           {" "}
           Experience uncompromising performance with our bare-metal
           servers. Our servers by default are packaged with our Unlimited
           priority traffic plan
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+      
       </Grid>
       <Grid
         item
@@ -50,12 +50,12 @@ export const P1S2 = () => {
       >
         <img src={iconP4} alt="" />
         <h1> Platinum DIA (pending)</h1>
-        <p>
+        {/* <p>
           {" "}
           Need more than priority? Then you can consider our Platinum DIA
           which gives you access to larger capacities
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+     
       </Grid>
       <Grid
         item
@@ -66,12 +66,12 @@ export const P1S2 = () => {
       >
         <img src={iconP5} alt="" />
         <h1>IP Resource Rental (pending)</h1>
-        <p>
+        {/* <p>
           {" "}
           If you are in the market for leasing resources then look no
           further. Let’s get you up and running as soon as possible
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+     
       </Grid>
       <Grid
         item
@@ -82,13 +82,13 @@ export const P1S2 = () => {
       >
         <img src={iconP2} alt="" />
         <h1> Custom Solutions (pending)</h1>
-        <p>
+        {/* <p>
           {" "}
           Need to connect to a specific ISP? Want to peer to with a
           particular ASN? Let’s discuss what we can build and make
           possible for you
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+     
       </Grid>
       <Grid
         item
@@ -99,13 +99,13 @@ export const P1S2 = () => {
       >
         <img src={iconP6} alt="" />
         <h1> Global VPLS (pending)</h1>
-        <p>
+        {/* <p>
           {" "}
           If you’re in the market for establishing a global LAN, then this
           Is the service for you. We enable you to receive, send and even
           backhaul traffic, all globally, all private
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+     
       </Grid>
       <Grid
         item
@@ -116,13 +116,13 @@ export const P1S2 = () => {
       >
         <img src={iconP3} alt="" />
         <h1>Data Analytics</h1>
-        <p>
+        {/* <p>
           {" "}
           If you require a solution that enables you to gather data,
           rapidly from different geo-locations, then let’s chat about
           getting you connected with our tools & services
-        </p>
-        <a href=""> Learn more...</a>
+        </p> */}
+     
       </Grid>
     </Grid>
   </Grid>
