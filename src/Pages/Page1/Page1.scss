@@ -195,8 +195,18 @@
     margin-left: 3rem;
   }
 
+  
+  @media all and( max-width:768px) {
+
+    h1 {
+      margin-left: 1rem !important;
+    }
+   
+  
+  }
+
   .miniCard {
-    margin-left: 1rem;
+    // margin-left: 1rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -214,6 +224,10 @@
       opacity: 0.9;
       border-radius: 18px;
     }
+    p{
+      width: -webkit-fill-available;
+    }
+
   }
 
   .miniCard:hover {
@@ -651,7 +665,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
-    margin-left: 4.5rem;
+    margin-left: 3.7rem;
   }
 
   @media all and (max-width: 425px) {
@@ -694,7 +708,7 @@
     }
     .SecBuildCard {
       padding: 1rem;
-      margin: auto;
+      // margin: auto;
       // background-color: #25203f;
       transform: scale(0.93);
       
@@ -713,6 +727,13 @@
         line-height: 29px;
         color: #25203f;
       }
+      @media all and (max-width : 768px) {
+        p{
+          color: #000000 !important;
+        }
+        
+      }
+
       p {
         font-family: "Red Hat Display", sans-serif;
         font-weight: normal;
@@ -910,6 +931,22 @@
       border-radius: 4px;
       color: #ffffff;
     }
+
+    @media all and (max-width:396px) { 
+
+      .ButtonSignUp{
+        margin-top: 1rem;
+        padding: 0.8rem 2rem;
+        font-family: "Red Hat Display", sans-serif;
+        border: none;
+        background: #25203f;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 4px;
+        color: #ffffff;
+      }
+
+     }
     .conatact {
       display: flex;
       align-items: center;
