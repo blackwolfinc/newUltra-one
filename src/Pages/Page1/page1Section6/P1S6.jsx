@@ -8,7 +8,7 @@ export const P1S6 = () => {
   return (
     <Container maxWidth="xl">
       <Grid container className="SectionBuildBody">
-        <Grid item md={0} lg={5}></Grid>
+        <Grid item md={1} lg={5}></Grid>
         <Grid item md={12} lg={7}>
           <h1 data-aos="fade-down" data-aos-duration="800">
             We’re Built Differently...

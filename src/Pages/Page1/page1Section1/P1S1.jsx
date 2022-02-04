@@ -10,7 +10,7 @@ export const P1S1 = () => {
     <Container>
       <Navbar />
       <Grid container className="Page1Body">
-        <Grid item xs={0} md={6}></Grid>
+        <Grid item xs={1} md={6}></Grid>
         {/* Header Text */}
         <Grid
           item

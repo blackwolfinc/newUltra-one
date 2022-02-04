@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.75b795ba.css",
-    "main.js": "/static/js/main.9f46d869.js",
+    "main.css": "/static/css/main.0c194a84.css",
+    "main.js": "/static/js/main.d05ae51b.js",
     "static/js/787.7193b2b3.chunk.js": "/static/js/787.7193b2b3.chunk.js",
-    "static/media/Banner.svg": "/static/media/Banner.62d195b24171cccb8b62.svg",
-    "static/media/Banner1.svg": "/static/media/Banner1.f7dd94aebd400240de32.svg",
+    "static/media/BannerPng2.png": "/static/media/BannerPng2.dfa1517cc68f23b6b6f8.png",
+    "static/media/WeBuilt.png": "/static/media/WeBuilt.1bcee78fec74f2f7a729.png",
+    "static/media/BackgrounAtas.png": "/static/media/BackgrounAtas.c309e9a9c6af87e509d7.png",
+    "static/media/iconCard3.png": "/static/media/iconCard3.461169f3a7d7ba750ec4.png",
+    "static/media/Locations.png": "/static/media/Locations.8a4e23f2b64575c2fd1a.png",
+    "static/media/iconCard4.png": "/static/media/iconCard4.7d1e9eb116cdc445a498.png",
+    "static/media/iconCard2.png": "/static/media/iconCard2.f0e2ab4a11ffd3cad424.png",
+    "static/media/iconCard1.png": "/static/media/iconCard1.aa70afb032e81c00f234.png",
+    "static/media/Point_icon4.png": "/static/media/Point_icon4.11fdd61d67f5e0187f98.png",
+    "static/media/Point_icon.png": "/static/media/Point_icon.aeb71b7950a6a9e1a589.png",
+    "static/media/Point_icon3.png": "/static/media/Point_icon3.aa16cf849b95748e2095.png",
+    "static/media/Point_icon2.png": "/static/media/Point_icon2.0bf0502c2aafa4861480.png",
     "index.html": "/index.html",
-    "main.75b795ba.css.map": "/static/css/main.75b795ba.css.map",
-    "main.9f46d869.js.map": "/static/js/main.9f46d869.js.map",
+    "main.0c194a84.css.map": "/static/css/main.0c194a84.css.map",
+    "main.d05ae51b.js.map": "/static/js/main.d05ae51b.js.map",
     "787.7193b2b3.chunk.js.map": "/static/js/787.7193b2b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75b795ba.css",
-    "static/js/main.9f46d869.js"
+    "static/css/main.0c194a84.css",
+    "static/js/main.d05ae51b.js"
   ]
 }
