@@ -28,7 +28,6 @@ export const Page1 = () => {
       <P1S7/>
       <P1S8/>
       </div>
- 
     </div>
   );
 };

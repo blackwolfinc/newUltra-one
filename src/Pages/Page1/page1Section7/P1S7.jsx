@@ -35,14 +35,17 @@ export const P1S7 = () => {
             {/* <img src={LocationBackground} alt="" className="imgLocationCostum" /> */}
 
             <Grid container className="KananBody">
-            <div className="Line-1"></div>
-            <div className="Line-2"></div>
-            <div className="Line-3"></div>
-            <div className="Line-4"></div>
+              <div className="Line-1"></div>
+              <div className="Line-2"></div>
+              <div className="Line-3"></div>
+              <div className="Line-4"></div>
               <div className="CardInside NewYork">
                 <img src={iconLocation1} alt="" />
-                <div>  <h2>New York</h2>
-                <p>New York City</p></div>
+                <div>
+                  {" "}
+                  <h2>New York</h2>
+                  <p>New York City</p>
+                </div>
               </div>
 
               <div className="CardInside Miami">
@@ -52,16 +55,30 @@ export const P1S7 = () => {
               </div>
 
               <div className="CardInside Ashburn">
-              <h2>Ashburn</h2>
+                <h2>Ashburn</h2>
                 <p>Virginia</p>
                 <img src={iconLocation2} alt="" />
-               
               </div>
-
+             
               <div className="CardInside London">
-                <img src={iconLocation4} alt="" />
-                <div>       <h2>London</h2>
-                <p>United Kingdom</p></div>
+              <div className="CardBorder">
+                <div className="CardInside-Header">
+                  <img src={iconLocation4} alt="" />
+                  <div>
+                    <h2>London</h2>
+                    <p>United Kingdom</p>
+                  </div>
+                </div>
+                
+                <div className="CardInsindeContent">
+                  <p>
+                    Experience uncompromising performance with our bare-metal
+                    servers. Our servers by default are packaged with our
+                    Unlimited priority traffic plan
+                  </p>
+                  <a>To the map</a>
+                </div>
+              </div>
               </div>
             </Grid>
           </Grid>
