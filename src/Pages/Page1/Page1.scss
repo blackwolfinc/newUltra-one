@@ -890,7 +890,8 @@
             color: #d37ad0 !important;
           }
           img {
-            max-height: 52px;
+            max-height: 50px;
+            max-width: 50px;
             margin-top: -1rem;
             margin-right: 1rem;
           }
@@ -910,10 +911,11 @@
               flex-direction: row !important;
             }
           img{
-            margin-top: 1.5rem !important;
-
-            transform: scale(1.3);
-            margin-left: -2.3rem;
+            margin-top: -0.8rem !important;
+            
+            transform: scale(1.1);
+            margin-left:-2.3rem;
+            margin-right: 1.5rem;
           }
           h2{
             margin-top: 2rem;
@@ -961,9 +963,11 @@
               flex-direction: row-reverse;
             }
           img{
-            margin-top: 1.5rem !important;
-            transform: scale(1.3);
-            margin-left: -2.3rem;
+            margin-top: -0.8rem !important;
+            
+            transform: scale(1.1);
+            margin-left:-2.3rem;
+            margin-right: 1.5rem;
           }
           h2{
             margin-top: 2rem;
@@ -1007,10 +1011,11 @@
           box-shadow:  5px 5px 20px #d9d9d9,
              -20px -20px 60px #ffffff;
           img{
-            margin-top: 1.5rem !important;
-
-            transform: scale(1.3);
-            margin-left: -2.3rem;
+            margin-top: -0.8rem !important;
+            
+            transform: scale(1.1);
+            margin-left:-2.3rem;
+            margin-right: 1.5rem;
           }
           h2{
             margin-top: 2rem;
@@ -1099,27 +1104,36 @@
             display: flex;
             flex-direction: column;
           }
+          img {
+            margin-top: 2.5rem ;
+            max-height: 50px;
+           
+          }
           .CardInsindeContent{display: none;}
           left: 17.5em;
           bottom: 7.5em;
           text-align: center;
           h2 {
             color: #ea5448;
+            margin-top: 2.4rem;
           }
+        
         }
         .NewYork {
           position: fixed !important;
           display: flex;
           // background-color: #25203f;
           .CardInsindeContent{display: none;}
-          left: 25em;
-          bottom: 16em;
+          left: 26.5em;
+          bottom: 15.8em;
           text-align: center;
           h2 {
             color: #7272c0;
           }
           img {
-            max-height: 100px;
+            margin-top: -1.5rem;
+            max-height: 50px;
+            margin-right: 1rem;
           }
         }
         .Ashburn {
@@ -1131,13 +1145,14 @@
           }
           .CardInsindeContent{display: none;}
           left: 20.5em;
-          bottom: 17em;
+          bottom: 18em;
           text-align: center;
           h2 {
             color: #6d4e9b;
           }
           img {
-            margin-top: -1rem;
+            margin-top: 0rem;
+            max-width: 50px !important;
           }
         }
         .CardInside {
