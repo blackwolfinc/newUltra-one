@@ -897,6 +897,7 @@
         }
         // hover
         .Miami:hover{
+          z-index: 99999;
           background-color: #FFFFFF;
           padding: 0rem 0rem 0rem 0rem;
           border-radius: 12px;
@@ -904,8 +905,13 @@
           // border: 1px solid gray;
           box-shadow:  5px 5px 20px #d9d9d9,
              -20px -20px 60px #ffffff;
+             .CardInside-Header{
+              display: flex;
+              flex-direction: row !important;
+            }
           img{
-            margin-top: -1rem !important;
+            margin-top: 1.5rem !important;
+
             transform: scale(1.3);
             margin-left: -2.3rem;
           }
@@ -942,6 +948,7 @@
           }
         }
         .Ashburn:hover{
+          z-index: 99999;
           background-color: #FFFFFF;
           padding: 0rem 0rem 0rem 0rem;
           border-radius: 12px;
@@ -949,8 +956,12 @@
           // border: 1px solid gray;
           box-shadow:  5px 5px 20px #d9d9d9,
              -20px -20px 60px #ffffff;
+             .CardInside-Header{
+              display: flex;
+              flex-direction: row-reverse;
+            }
           img{
-            margin-top: -1rem !important;
+            margin-top: 1.5rem !important;
             transform: scale(1.3);
             margin-left: -2.3rem;
           }
@@ -987,6 +998,7 @@
           }
         }
         .NewYork:hover{
+          z-index: 99999;
           background-color: #FFFFFF;
           padding: 0rem 0rem 0rem 0rem;
           border-radius: 12px;
@@ -995,7 +1007,8 @@
           box-shadow:  5px 5px 20px #d9d9d9,
              -20px -20px 60px #ffffff;
           img{
-            margin-top: -1rem !important;
+            margin-top: 1.5rem !important;
+
             transform: scale(1.3);
             margin-left: -2.3rem;
           }
@@ -1032,6 +1045,7 @@
           }
         }
         .London:hover{
+          z-index: 99999;
           background-color: #FFFFFF;
           padding: 0rem 0rem 0rem 0rem;
           border-radius: 12px;
@@ -1079,7 +1093,12 @@
         // hover end
         .Miami {
           position: fixed !important;
+          display: flex;
           // background-color: #25203f;
+          .CardInside-Header{
+            display: flex;
+            flex-direction: column;
+          }
           .CardInsindeContent{display: none;}
           left: 17.5em;
           bottom: 7.5em;
@@ -1106,6 +1125,10 @@
         .Ashburn {
           position: fixed !important;
           // background-color: #25203f;
+          .CardInside-Header{
+            display: flex;
+            flex-direction: column;
+          }
           .CardInsindeContent{display: none;}
           left: 20.5em;
           bottom: 17em;
