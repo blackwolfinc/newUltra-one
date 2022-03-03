@@ -39,25 +39,71 @@ export const P1S7 = () => {
               <div className="Line-2"></div>
               <div className="Line-3"></div>
               <div className="Line-4"></div>
+           
               <div className="CardInside NewYork">
-                <img src={iconLocation1} alt="" />
-                <div>
-                  {" "}
-                  <h2>New York</h2>
-                  <p>New York City</p>
+              <div className="CardBorder">
+                <div className="CardInside-Header">
+                  <img src={iconLocation1} alt="" />
+                  <div>
+                    <h2>New York</h2>
+                    <p>New York City</p>
+                  </div>
+                </div>
+                
+                <div className="CardInsindeContent">
+                  <p>
+                    Experience uncompromising performance with our bare-metal
+                    servers. Our servers by default are packaged with our
+                    Unlimited priority traffic plan
+                  </p>
+                  <a>To the map</a>
                 </div>
               </div>
+              </div>
+          
+
 
               <div className="CardInside Miami">
-                <img src={iconLocation3} alt="" />
-                <h2>Miami</h2>
-                <p>Florida</p>
+              <div className="CardBorder">
+                <div className="CardInside-Header">
+                  <img src={iconLocation3} alt="" />
+                  <div>
+                    <h2>Miami</h2>
+                    <p>Florida</p>
+                  </div>
+                </div>
+                
+                <div className="CardInsindeContent">
+                  <p>
+                    Experience uncompromising performance with our bare-metal
+                    servers. Our servers by default are packaged with our
+                    Unlimited priority traffic plan
+                  </p>
+                  <a>To the map</a>
+                </div>
               </div>
-
+              </div>
+          
               <div className="CardInside Ashburn">
-                <h2>Ashburn</h2>
-                <p>Virginia</p>
-                <img src={iconLocation2} alt="" />
+              <div className="CardBorder">
+                <div className="CardInside-Header ">
+                <div>
+                    <h2>Ashburn</h2>
+                    <p>Virginia</p>
+                  </div>
+                  <img src={iconLocation2} alt="" />
+             
+                </div>
+                
+                <div className="CardInsindeContent">
+                  <p>
+                    Experience uncompromising performance with our bare-metal
+                    servers. Our servers by default are packaged with our
+                    Unlimited priority traffic plan
+                  </p>
+                  <a>To the map</a>
+                </div>
+              </div>
               </div>
              
               <div className="CardInside London">
