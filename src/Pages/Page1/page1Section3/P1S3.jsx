@@ -50,14 +50,14 @@ export const P1S3 = () => {
     </Grid>
     <Grid item xs={12} sm={12} data-aos="fade-down" data-aos-duration="1500">
       <Grid container spacing={2} className="ContainerButtonCountry">
-        <Grid item sm={12} md={3} className="ButtonCountry">
+        <Grid item sm={12} md={4} className="ButtonCountry">
           <button>Miami</button>
         </Grid>
        
-        <Grid item sm={12} md={3} className="ButtonCountry">
+        <Grid item sm={12} md={4} className="ButtonCountry">
           <button>New York City</button>
         </Grid>
-        <Grid item sm={12} md={3} className="ButtonCountry">
+        <Grid item sm={12} md={4} className="ButtonCountry">
           <button>Ashburn
 </button>
         </Grid>

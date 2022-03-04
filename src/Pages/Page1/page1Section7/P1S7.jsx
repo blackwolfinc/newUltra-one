@@ -147,11 +147,11 @@ export const P1S7 = () => {
                 <h1>Contacts</h1>
                 <div className="conatact">
                   <h5>Support Portal</h5>
-                  <p> support.ultratelecom.net </p>
+                  <p> support.ultra.one </p>
                 </div>
                 <div className="conatact">
                   <h5>Phone Support</h5>
-                  <p>+1 (307) 200-8584 </p>
+                  <p>+1 (240) 202-4606 </p>
                 </div>
                 <div className="conatact">
                   <h5>Email Support</h5>
