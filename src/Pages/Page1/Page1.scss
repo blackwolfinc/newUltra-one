@@ -1156,10 +1156,10 @@
             max-width: 50px !important;
           }
         }
+
+
         .CardInside {
           // background-color: #2ccb58;
-
-          
           display: flex;
           flex-direction: column;
           img {
@@ -1447,3 +1447,40 @@
 .footer-Container {
   background: #25203f;
 }
+
+
+@media all and (max-width: 989px) { 
+  .CardInside,.Line-1,.Line-2,.Line-3,.Line-4{
+    display: none !important;
+  }
+  .ourLocationText{width: 100%}
+
+          }
+          
+
+          
+@media all and (max-width: 500px) { 
+
+
+  
+.ContainerkiriLocation .ContactWarper .conatact h5 {
+    min-width: 0px !important;
+  }
+.WapSec{
+  margin: 0px !important;
+  padding: 1rem !important;
+}
+
+.ContainerkiriLocation{
+  transform: scale(1);
+
+  .getTouch{
+    margin-top: 1rem !important}
+}
+input{
+  width: 85% !important;
+}
+.ButtonSignUp{margin-top: 2rem;
+width: 100%;}
+          }
+          

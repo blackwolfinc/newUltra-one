@@ -130,9 +130,6 @@ export const P1S7 = () => {
           </Grid>
           <Grid item sm={12} md={5}>
             <Grid container className="ContainerkiriLocation">
-              {/* <Grid item md={12}>
-            
-            </Grid> */}
               <Grid
                 item
                 md={12}
