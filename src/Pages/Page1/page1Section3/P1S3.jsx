@@ -22,7 +22,7 @@ export const P1S3 = () => {
         data-aos="fade-down"
         data-aos-duration="1200"
       >
-        <Grid item className="CardCountry" md={1}>
+        {/* <Grid item className="CardCountry" md={1}>
           <p>Netherlands</p>
         </Grid>
         <Grid item className="CardCountry" md={1}>
@@ -33,11 +33,11 @@ export const P1S3 = () => {
         </Grid>
         <Grid item className="CardCountry" md={1}>
           <p>Singapore</p>
-        </Grid>
+        </Grid> */}
         <Grid item className="CardCountry" md={1}>
           <p>United States</p>
         </Grid>
-        <Grid item className="CardCountry" md={1}>
+        {/* <Grid item className="CardCountry" md={1}>
           <p>Hong Kong</p>
         </Grid>
         <Grid item className="CardCountry" md={1}>
@@ -45,7 +45,7 @@ export const P1S3 = () => {
         </Grid>
         <Grid item className="CardCountry" md={1}>
           <p>Japan</p>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Grid>
     <Grid item md={12} data-aos="fade-down" data-aos-duration="1500">
@@ -53,7 +53,15 @@ export const P1S3 = () => {
         <Grid item className="ButtonCountry">
           <button>Miami</button>
         </Grid>
+       
         <Grid item className="ButtonCountry">
+          <button>New York City</button>
+        </Grid>
+        <Grid item className="ButtonCountry">
+          <button>Ashburn
+</button>
+        </Grid>
+        {/* <Grid item className="ButtonCountry">
           <button>San-Francisco</button>
         </Grid>
         <Grid item className="ButtonCountry">
@@ -69,14 +77,8 @@ export const P1S3 = () => {
           <button>Dallas</button>
         </Grid>
         <Grid item className="ButtonCountry">
-          <button>New York City</button>
-        </Grid>
-        <Grid item className="ButtonCountry">
-          <button>Chicago</button>
-        </Grid>
-        <Grid item className="ButtonCountry">
           <button>Los Angeles</button>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Grid>
   </Grid>
