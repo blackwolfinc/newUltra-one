@@ -14,7 +14,7 @@ export const P1S3 = () => {
     >
       <h1>Our Network</h1>
     </Grid>
-    <Grid item md={12}>
+    <Grid item xs={12} sm={12} md={12}>
       <Grid
         container
         spacing={3}
@@ -34,7 +34,7 @@ export const P1S3 = () => {
         <Grid item className="CardCountry" md={1}>
           <p>Singapore</p>
         </Grid> */}
-        <Grid item className="CardCountry" md={1}>
+        <Grid item className="CardCountry" md={12} sm={12} xs={12}>
           <p>United States</p>
         </Grid>
         {/* <Grid item className="CardCountry" md={1}>
@@ -48,16 +48,16 @@ export const P1S3 = () => {
         </Grid> */}
       </Grid>
     </Grid>
-    <Grid item md={12} data-aos="fade-down" data-aos-duration="1500">
+    <Grid item xs={12} sm={12} data-aos="fade-down" data-aos-duration="1500">
       <Grid container spacing={2} className="ContainerButtonCountry">
-        <Grid item className="ButtonCountry">
+        <Grid item sm={12} md={3} className="ButtonCountry">
           <button>Miami</button>
         </Grid>
        
-        <Grid item className="ButtonCountry">
+        <Grid item sm={12} md={3} className="ButtonCountry">
           <button>New York City</button>
         </Grid>
-        <Grid item className="ButtonCountry">
+        <Grid item sm={12} md={3} className="ButtonCountry">
           <button>Ashburn
 </button>
         </Grid>

@@ -23,7 +23,13 @@ export const P1S7 = () => {
               priority traffic plan
             </h4>
           </Grid>
+          <Grid container className="LocationSmall">
+              <Grid item md={12} className="CardLocationSmall"> New York</Grid>
+              <Grid item md={12} className="CardLocationSmall"> London</Grid>
+              <Grid item md={12} className="CardLocationSmall"> Ashburn</Grid>
+              <Grid item md={12} className="CardLocationSmall">Miami</Grid>
 
+          </Grid>
           <Grid
             item
             md={7}

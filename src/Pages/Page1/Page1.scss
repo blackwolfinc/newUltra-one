@@ -517,6 +517,7 @@
       border-top-left-radius: 12px;
       border-top-right-radius: 12px;
       min-height: 5.3rem !important;
+      width: 100%;
       h1 {
         font-family: "Red Hat Display", sans-serif;
 
@@ -1448,6 +1449,27 @@
   background: #25203f;
 }
 
+.LocationSmall
+{
+  
+  display: none !important;
+  justify-content: center;
+  text-align: center;
+  .CardLocationSmall{
+    background: #25203f;
+    color: #fff;
+    width: 100%;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
 
 @media all and (max-width: 989px) { 
   .CardInside,.Line-1,.Line-2,.Line-3,.Line-4{
@@ -1455,6 +1477,9 @@
   }
   .ourLocationText{width: 100%}
 
+  .LocationSmall{
+    display: flex !important;
+  }
           }
           
 
@@ -1484,3 +1509,6 @@ input{
 width: 100%;}
           }
           
+
+
+  
