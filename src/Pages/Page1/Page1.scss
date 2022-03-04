@@ -1074,6 +1074,22 @@
             border-radius: 12px;
             padding: 1.2rem;
             margin: 1rem;
+            background: linear-gradient(135deg, #ffffff 0, #e4e4e4ad 100%),url(../../Assets/img/Maps/Maps1.png);
+            background-size: contain;
+            transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            
+          }
+          .CardInside-Header:Hover{
+        
+            img ,h2,p{display: none !important;}
+           .CardInside-Header ,.CardInsindeContent ,.CardBorder{ display: none !important;
+       
+
+          }
+           min-height: 20rem;
+           min-width: 15.5rem;
+           background:url(../../Assets/img/Maps/Maps1.png) ;
+           background-size: contain;
           }
           .CardInsindeContent {
             display: flex;
@@ -1490,7 +1506,7 @@
   }
 
   .ContainerkiriLocation .ContactWarper .conatact h5 {
-    min-width: 0px !important;
+    min-width: 110px !important;
   }
   .WapSec {
     margin: 0px !important;
