@@ -62,7 +62,8 @@ export const P1S7 = () => {
                     servers. Our servers by default are packaged with our
                     Unlimited priority traffic plan
                   </p>
-                  <a>To the map</a>
+                 
+                  <a href="https://goo.gl/maps/sWp8kWgAwRLHBtcJ6">To the map</a>
                 </div>
               </div>
               </div>
@@ -85,7 +86,8 @@ export const P1S7 = () => {
                     servers. Our servers by default are packaged with our
                     Unlimited priority traffic plan
                   </p>
-                  <a>To the map</a>
+                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
+                 
                 </div>
               </div>
               </div>
@@ -107,7 +109,30 @@ export const P1S7 = () => {
                     servers. Our servers by default are packaged with our
                     Unlimited priority traffic plan
                   </p>
-                  <a>To the map</a>
+                
+                  <a href="https://goo.gl/maps/Sr9eXnqDuNU1KTd96">To the map</a>
+                </div>
+              </div>
+              </div>
+
+                  <div className="CardInside London">
+              <div className="CardBorder">
+                <div className="CardInside-Header">
+                  <img src={iconLocation4} alt="" />
+                  <div>
+                    <h2>London</h2>
+                    <p>United Kingdom</p>
+                  </div>
+                </div>
+                
+                <div className="CardInsindeContent">
+                  <p>
+                    Experience uncompromising performance with our bare-metal
+                    servers. Our servers by default are packaged with our
+                    Unlimited priority traffic plan
+                  </p>
+            
+                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
                 </div>
               </div>
               </div>
@@ -128,7 +153,7 @@ export const P1S7 = () => {
                     servers. Our servers by default are packaged with our
                     Unlimited priority traffic plan
                   </p>
-                  <a>To the map</a>
+                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
                 </div>
               </div>
               </div>
