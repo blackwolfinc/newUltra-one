@@ -8,10 +8,14 @@
   font-family: "Red Hat Display", sans-serif;
   margin-bottom: 10rem;
 
+  a{
+    color: #5518bB;
+
+  }
   .HeaderLogo {
     display: flex;
     justify-content: space-between;
-    filter: drop-shadow(1.1px 1px 1px #25203fc4);
+    // filter: drop-shadow(1.1px 1px 1px #25203fc4);
   }
 
   .showHeaderText {
@@ -25,13 +29,15 @@
     z-index: 9999;
     display: flex;
     flex-direction: column;
-
+ 
     .nav-itemHeader {
       padding: 1rem 0rem;
       a {
         color: #fff !important;
       }
     }
+
+    
   }
 
   @media all and (min-width: 1064px) {
@@ -1446,7 +1452,8 @@
   justify-content: center;
   // background-color: #25203f;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   h4 {
     color: #3f3b56cc;
   }
