@@ -19,7 +19,7 @@ export const P1S6 = () => {
                 <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo1} alt="" />
                 </Grid>
-                <Grid item xs={11} sm={11} md={11}  lg={11}>
+                <Grid item xs={11} sm={11} md={11} lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Priority & Platinum Traffic
                   </h3>
@@ -34,19 +34,19 @@ export const P1S6 = () => {
             </Grid>
             <Grid item md={6} className="SecBuildCard leftCard">
               <Grid container>
-                <Grid item xs={1} sm={1}  md={1} lg={1}>
+                <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo3} alt="" />
                 </Grid>
-                <Grid item xs={11} sm={11} md={11}  lg={11}>
+                <Grid item xs={11} sm={11} md={11} lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Ambitious Customer Support
                   </h3>
                   <p data-aos="fade-right" data-aos-duration="1200">
-                    We are determined to provide support that exceeds
-                    expectations. Whether you’re having an issue installing
-                    software, need someone to address and issue 1AM in the
-                    morning, or need advice on where next vacation should be, we
-                    are here for you.
+                    next vacation We are determined to provide the support that
+                    exceeds expectations. Whether you’re having an issue
+                    installing software, need someone to address an issue at 1
+                    AM in the morning, or need advice on where your next
+                    vacation should be, we are here for you.
                   </p>
                 </Grid>
               </Grid>
@@ -61,7 +61,7 @@ export const P1S6 = () => {
                     Global VPLS Network
                   </h3>
                   <p data-aos="fade-right" data-aos-duration="1200">
-                    All of our facilities are connect via our redundant VPLS
+                    All of our facilities are connected via our redundant VPLS
                     network. Enabling customers to take advantage of private,
                     multi-site connectivity. Want to expand your LAN to the EU?
                     Backup over a private connection, we got you covered.
@@ -74,7 +74,7 @@ export const P1S6 = () => {
                 <Grid item xs={1} sm={1} md={1} lg={1}>
                   <img src={logo4} alt="" />
                 </Grid>
-                <Grid item xs={11} sm={11} md={11}  lg={11}>
+                <Grid item xs={11} sm={11} md={11} lg={11}>
                   <h3 data-aos="fade-right" data-aos-duration="800">
                     Custom Solution Friendly
                   </h3>
@@ -84,7 +84,7 @@ export const P1S6 = () => {
                     you. Our team is equipped with years of industry experience
                     to build and advice on any solution. Whether be you need
                     access to a specific carrier, or are in the market to lease
-                    a /16 IPv4, we got you.
+                    a /16 IPv4,  write to us.
                   </p>
                 </Grid>
               </Grid>

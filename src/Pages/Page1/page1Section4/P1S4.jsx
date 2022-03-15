@@ -18,29 +18,29 @@ export const P1S4 = () => {
             </Grid>
             <Grid item md={12}>
               <Grid container className="CardExplainBody">
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={3} sm={6} md={5}>
                   <p> CPU</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
-                  <p> 1 x 18 CORES @ 2.3Ghz</p>
+                <Grid className="left" item xs={8} sm={6} md={7}>
+                  <p className="define"> 1 x 18 CORES @ 2.3Ghz</p>
                 </Grid>
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p>RAM</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 32GB DDR4</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> HDD</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 1 X 240GB SSD</p>
                 </Grid>
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> TRAFFIC</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> UNLIMITED 10GBPS</p>
                 </Grid>
               </Grid>
@@ -59,7 +59,7 @@ export const P1S4 = () => {
                     <h2> $189/month </h2>{" "}
                   </div>
                 </Grid>
-                <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
+                <Grid item className="left" xs={5} sm={6} md={5}>
                   <h3> US$239.65 </h3>
                 </Grid>
               </Grid>
@@ -72,7 +72,7 @@ export const P1S4 = () => {
                 </Grid>
               </Grid>
               <br />
-              <p className="center">*One-off US$50.00 setup free applies.</p>
+              <p className="center">one-time $50 setup fee applies.</p>
             </Grid>
           </Grid>
         </Grid>
@@ -89,30 +89,30 @@ export const P1S4 = () => {
             </Grid>
             <Grid item md={12}>
               <Grid container className="CardExplainBody">
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={3} sm={6} md={5}>
                   <p> CPU</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={8} sm={6} md={7}>
                   <p> 2 x 18 CORES @ 2.3Ghz</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p>RAM</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 32GB DDR4</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> HDD</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 1 X 240GB SSD</p>
                 </Grid>
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> TRAFFIC</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> UNLIMITED 10GBPS </p>
                 </Grid>
               </Grid>
@@ -131,7 +131,7 @@ export const P1S4 = () => {
                     <h2>$300/month </h2>{" "}
                   </div>
                 </Grid>
-                <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
+                <Grid item className="left" xs={5} sm={6} md={5}>
                   <h3> US$345.50 </h3>
                 </Grid>
               </Grid>
@@ -144,7 +144,7 @@ export const P1S4 = () => {
                 </Grid>
               </Grid>
               <br />
-              <p className="center">*One-off US$50.00 setup free applies.</p>
+              <p className="center">one-time $50 setup fee applies.</p>
             </Grid>
           </Grid>
         </Grid>
@@ -162,30 +162,30 @@ export const P1S4 = () => {
             </Grid>
             <Grid item md={12}>
               <Grid container className="CardExplainBody">
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={3} sm={6} md={5}>
                   <p> CPU</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={8} sm={6} md={7}>
                   <p> 1 x 12 CORES @ 2.3Ghz</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p>RAM</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 32GB DDR4</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> HDD</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 1 X 240GB SSD</p>
                 </Grid>
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> TRAFFIC</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> UNLIMITED 10GBPS </p>
                 </Grid>
               </Grid>
@@ -204,7 +204,7 @@ export const P1S4 = () => {
                     <h2>$169/month </h2>{" "}
                   </div>
                 </Grid>
-                <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
+                <Grid item  className="left" xs={5} sm={6} md={5}>
                   <h3> US$199.50 </h3>
                 </Grid>
               </Grid>
@@ -217,7 +217,7 @@ export const P1S4 = () => {
                 </Grid>
               </Grid>
               <br />
-              <p className="center">*One-off US$50.00 setup free applies.</p>
+              <p className="center">one-time $50 setup fee applies.</p>
             </Grid>
           </Grid>
         </Grid>
@@ -235,30 +235,30 @@ export const P1S4 = () => {
             </Grid>
             <Grid item md={12}>
               <Grid container className="CardExplainBody">
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={3} sm={6} md={5}>
                   <p> CPU</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={8} sm={6} md={7}>
                   <p> 2 x 6 CORES @ 2.3Ghz</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p>RAM</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
-                  <p> 32GB DDR4</p>
+                <Grid className="left" item xs={7} sm={6} md={7}>
+                  <p> 16GB DDR4</p>
                 </Grid>
 
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> HDD</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> 1 X 240GB SSD</p>
                 </Grid>
-                <Grid item xs={6} sm={6} md={5}>
+                <Grid item xs={4} sm={6} md={5}>
                   <p> TRAFFIC</p>
                 </Grid>
-                <Grid className="left" item xs={5} sm={6} md={7}>
+                <Grid className="left" item xs={7} sm={6} md={7}>
                   <p> UNLIMITED 1GBPS</p>
                 </Grid>
               </Grid>
@@ -277,7 +277,7 @@ export const P1S4 = () => {
                     <h2> $119/month</h2>{" "}
                   </div>
                 </Grid>
-                <Grid item sm={6} className="left" xs={5} sm={6} md={5}>
+                <Grid item  className="left" xs={5} sm={6} md={5}>
                   <h3> US$139.50 </h3>
                 </Grid>
               </Grid>
@@ -290,7 +290,7 @@ export const P1S4 = () => {
                 </Grid>
               </Grid>
               <br />
-              <p className="center">*One-off US$50.00 setup free applies.</p>
+              <p className="center">one-time $50 setup fee applies.</p>
             </Grid>
           </Grid>
         </Grid>
