@@ -62,7 +62,8 @@
     }
 
     .width {
-      text-align: center;
+      text-align: left;
+      margin-left: -1rem;
       min-width: fit-content;
     }
     .nav-itemHeader:hover {

@@ -8,7 +8,7 @@ import iconP5 from "../../../Assets/Icon/IconProduct/Property 1=IP.png";
 import iconP6 from "../../../Assets/Icon/IconProduct/Property 1=Global.png";
 export const P1S2 = () => {
   return    <Container>
-  <Grid container className="ProductBody">
+  <Grid container id="ourProduct" className="ProductBody">
     <Grid
       item
       sm={12}

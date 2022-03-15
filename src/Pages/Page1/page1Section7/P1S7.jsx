@@ -16,7 +16,7 @@ export const P1S7 = () => {
       <Container maxWidth="xl" className="ContainerLocationWarp">
         <Grid container className="OurLocationWarp">
           <Grid md={12} className="ourLocationText">
-            <h1>Our Locations</h1>
+            <h1 id="aboutUs">Our Locations</h1>
             <h4>
               Experience uncompromising performance with our bare-metal servers.
               Our servers by <br /> default are packaged with our Unlimited

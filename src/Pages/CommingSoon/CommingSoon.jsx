@@ -5,7 +5,7 @@ export const CommingSoon = () => {
   return (
     <div className="CommingSoonContainer">
       <Container className="ContainerCmsoon">
-        <Grid container container>
+        <Grid container >
           <Grid item md={6}></Grid>
           <Grid item sm={12} md={6}  className="CommingSoonBody">
             <h1>We’re built differently</h1>

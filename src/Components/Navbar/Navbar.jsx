@@ -16,26 +16,26 @@ export const Navbar = () => {
           <Grid item sm={10} md={5} className="HeaderLogo" >
             <img  src={logo} alt="" />
           </Grid>
-          <Grid item sm={12} md={5} className="HeaderBody">
+          <Grid item sm={12} md={7} className="HeaderBody">
             <Grid container spacing={1}>
               <Grid className="nav-itemHeader" item sm={12} md={2}>
-                <a href="">Products</a>
+                <a href="#ourProduct">Products</a>
               </Grid>
-              <Grid className=" width nav-itemHeader" item sm={12} md={3}>
-                <a href="">Our network</a>
+              <Grid className=" width nav-itemHeader" item sm={12} md={2}>
+                <a href="#ourNetwork">Our network</a>
               </Grid>
-              <Grid className=" nav-itemHeader" item sm={12} md={3}>
-                <a href="">About us</a>
+              <Grid className=" nav-itemHeader" item sm={12} md={2}>
+                <a href="#aboutUs">About us</a>
               </Grid>
-
-              <Grid className="Number nav-itemHeader" item sm={12} md={4}>
+              <Grid className=" nav-itemHeader  HeaderButton" item sm={12} md={3}>
+              <button>CONTACT US</button>
+              </Grid>
+              <Grid className="Number nav-itemHeader" item sm={12} md={3}>
                 <a href="">8(555) 560-9998</a>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item sm={12} md={2} className="HeaderButton">
-            <button>CONTACT US</button>
-          </Grid>
+        
           <Grid item  onClick={()=>{
             setOpenModal(!OpenModal)
             } } sm={2} md={5} className="HeaderButton2">
@@ -47,13 +47,13 @@ export const Navbar = () => {
       </Container>
       {OpenModal ?  <Grid container className="showHeaderText">
         <Grid className="nav-itemHeader" item sm={12} md={2}>
-          <a href="">Products</a>
+        <a href="#ourProduct">Products</a>
         </Grid>
         <Grid className=" width nav-itemHeader" item sm={12} md={3}>
-          <a href="">Our network</a>
+        <a href="#ourNetwork">Our network</a>
         </Grid>
         <Grid className=" nav-itemHeader" item sm={12} md={3}>
-          <a href="">About us</a>
+        <a href="#aboutUs">About us</a>
         </Grid>
 
         <Grid className="Number nav-itemHeader" item sm={12} md={4}>

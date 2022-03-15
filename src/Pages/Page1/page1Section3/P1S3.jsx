@@ -12,7 +12,7 @@ export const P1S3 = () => {
       data-aos="fade-down"
       data-aos-duration="800"
     >
-      <h1>Our Network</h1>
+      <h1 id="ourNetwork">Our Network</h1>
     </Grid>
     <Grid item xs={12} sm={12} md={12}>
       <Grid
