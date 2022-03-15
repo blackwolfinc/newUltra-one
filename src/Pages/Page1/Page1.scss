@@ -1453,7 +1453,7 @@
   // background-color: #25203f;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
   h4 {
     color: #3f3b56cc;
   }
@@ -1680,7 +1680,8 @@
     padding: 0.8rem 2rem;
     border-radius: 4px;
 
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     font-weight: bold;
