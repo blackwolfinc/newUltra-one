@@ -1,5 +1,5 @@
-import { Container, Grid} from "@material-ui/core";
-import React, { useRef ,useState } from "react";
+import { Container, Grid } from "@material-ui/core";
+import React, { useRef, useState } from "react";
 import iconLocation1 from "../../../Assets/Icon/iconLocation/Point_icon.png";
 import iconLocation2 from "../../../Assets/Icon/iconLocation/Point_icon2.png";
 import iconLocation3 from "../../../Assets/Icon/iconLocation/Point_icon3.png";
@@ -11,12 +11,7 @@ import iconSocial4 from "../../../Assets/Icon/iconSocial/Social Icons4.png";
 import LocationBackground from "../../../Assets/img/Locations.png";
 import emailjs from "@emailjs/browser";
 export const P1S7 = () => {
-
   const form = useRef();
-
-
-    
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,14 +25,13 @@ export const P1S7 = () => {
       )
       .then(
         (result) => {
-     
-         
-          window.location.href ="/"
-          alert("E-mail has been sent , Thank you for sending us a message  , We will reply as soon as possible during business hours .         ")
+          window.location.href = "/";
+          alert(
+            "E-mail has been sent , Thank you for sending us a message  , We will reply as soon as possible during business hours .         "
+          );
         },
         (error) => {
-       
-            alert(error)
+          alert(error);
         }
       );
   };
@@ -56,11 +50,21 @@ export const P1S7 = () => {
           </Grid>
 
           <Grid container className="LocationSmall">
-              <Grid item md={12} className="CardLocationSmall"> New York</Grid>
-              <Grid item md={12} className="CardLocationSmall"> London</Grid>
-              <Grid item md={12} className="CardLocationSmall"> Ashburn</Grid>
-              <Grid item md={12} className="CardLocationSmall">Miami</Grid>
-
+            <Grid item md={12} className="CardLocationSmall">
+              {" "}
+              New York
+            </Grid>
+            <Grid item md={12} className="CardLocationSmall">
+              {" "}
+              London
+            </Grid>
+            <Grid item md={12} className="CardLocationSmall">
+              {" "}
+              Ashburn
+            </Grid>
+            <Grid item md={12} className="CardLocationSmall">
+              Miami
+            </Grid>
           </Grid>
           <Grid
             item
@@ -77,117 +81,123 @@ export const P1S7 = () => {
               <div className="Line-2"></div>
               <div className="Line-3"></div>
               <div className="Line-4"></div>
-           
+
               <div className="CardInside NewYork">
-              <div className="CardBorder">
-                <div className="CardInside-Header">
-                  <img src={iconLocation1} alt="" />
-                  <div>
-                    <h2>New York</h2>
-                    <p>New York City</p>
+                <div className="CardBorder">
+                  <div className="CardInside-Header">
+                    <img src={iconLocation1} alt="" />
+                    <div>
+                      <h2>New York</h2>
+                      <p>New York City</p>
+                    </div>
+                  </div>
+
+                  <div className="CardInsindeContent">
+                    <p>
+                      Experience uncompromising performance with our bare-metal
+                      servers. Our servers by default are packaged with our
+                      Unlimited priority traffic plan
+                    </p>
+
+                    <a href="https://goo.gl/maps/sWp8kWgAwRLHBtcJ6">
+                      To the map
+                    </a>
                   </div>
                 </div>
-                
-                <div className="CardInsindeContent">
-                  <p>
-                    Experience uncompromising performance with our bare-metal
-                    servers. Our servers by default are packaged with our
-                    Unlimited priority traffic plan
-                  </p>
-                 
-                  <a href="https://goo.gl/maps/sWp8kWgAwRLHBtcJ6">To the map</a>
-                </div>
               </div>
-              </div>
-          
-
 
               <div className="CardInside Miami">
-              <div className="CardBorder">
-                <div className="CardInside-Header">
-                  <img src={iconLocation3} alt="" />
-                  <div>
-                    <h2>Miami</h2>
-                    <p>Florida</p>
+                <div className="CardBorder">
+                  <div className="CardInside-Header">
+                    <img src={iconLocation3} alt="" />
+                    <div>
+                      <h2>Miami</h2>
+                      <p>Florida</p>
+                    </div>
+                  </div>
+
+                  <div className="CardInsindeContent">
+                    <p>
+                      Experience uncompromising performance with our bare-metal
+                      servers. Our servers by default are packaged with our
+                      Unlimited priority traffic plan
+                    </p>
+                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                      To the map
+                    </a>
                   </div>
                 </div>
-                
-                <div className="CardInsindeContent">
-                  <p>
-                    Experience uncompromising performance with our bare-metal
-                    servers. Our servers by default are packaged with our
-                    Unlimited priority traffic plan
-                  </p>
-                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
-                 
-                </div>
-              </div>
-              </div>
-          
-              <div className="CardInside Ashburn">
-              <div className="CardBorder">
-                <div className="CardInside-Header ">
-                <div>
-                    <h2>Ashburn</h2>
-                    <p>Virginia</p>
-                  </div>
-                  <img src={iconLocation2} alt="" />
-             
-                </div>
-                
-                <div className="CardInsindeContent">
-                  <p>
-                    Experience uncompromising performance with our bare-metal
-                    servers. Our servers by default are packaged with our
-                    Unlimited priority traffic plan
-                  </p>
-                
-                  <a href="https://goo.gl/maps/Sr9eXnqDuNU1KTd96">To the map</a>
-                </div>
-              </div>
               </div>
 
-                  <div className="CardInside London">
-              <div className="CardBorder">
-                <div className="CardInside-Header">
-                  <img src={iconLocation4} alt="" />
-                  <div>
-                    <h2>London</h2>
-                    <p>United Kingdom</p>
+              <div className="CardInside Ashburn">
+                <div className="CardBorder">
+                  <div className="CardInside-Header ">
+                    <div>
+                      <h2>Ashburn</h2>
+                      <p>Virginia</p>
+                    </div>
+                    <img src={iconLocation2} alt="" />
+                  </div>
+
+                  <div className="CardInsindeContent">
+                    <p>
+                      Experience uncompromising performance with our bare-metal
+                      servers. Our servers by default are packaged with our
+                      Unlimited priority traffic plan
+                    </p>
+
+                    <a href="https://goo.gl/maps/Sr9eXnqDuNU1KTd96">
+                      To the map
+                    </a>
                   </div>
                 </div>
-                
-                <div className="CardInsindeContent">
-                  <p>
-                    Experience uncompromising performance with our bare-metal
-                    servers. Our servers by default are packaged with our
-                    Unlimited priority traffic plan
-                  </p>
-            
-                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
-                </div>
               </div>
-              </div>
-             
+
               <div className="CardInside London">
-              <div className="CardBorder">
-                <div className="CardInside-Header">
-                  <img src={iconLocation4} alt="" />
-                  <div>
-                    <h2>London</h2>
-                    <p>United Kingdom</p>
+                <div className="CardBorder">
+                  <div className="CardInside-Header">
+                    <img src={iconLocation4} alt="" />
+                    <div>
+                      <h2>London</h2>
+                      <p>United Kingdom</p>
+                    </div>
+                  </div>
+
+                  <div className="CardInsindeContent">
+                    <p>
+                      Experience uncompromising performance with our bare-metal
+                      servers. Our servers by default are packaged with our
+                      Unlimited priority traffic plan
+                    </p>
+
+                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                      To the map
+                    </a>
                   </div>
                 </div>
-                
-                <div className="CardInsindeContent">
-                  <p>
-                    Experience uncompromising performance with our bare-metal
-                    servers. Our servers by default are packaged with our
-                    Unlimited priority traffic plan
-                  </p>
-                  <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">To the map</a>
-                </div>
               </div>
+
+              <div className="CardInside London">
+                <div className="CardBorder">
+                  <div className="CardInside-Header">
+                    <img src={iconLocation4} alt="" />
+                    <div>
+                      <h2>London</h2>
+                      <p>United Kingdom</p>
+                    </div>
+                  </div>
+
+                  <div className="CardInsindeContent">
+                    <p>
+                      Experience uncompromising performance with our bare-metal
+                      servers. Our servers by default are packaged with our
+                      Unlimited priority traffic plan
+                    </p>
+                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                      To the map
+                    </a>
+                  </div>
+                </div>
               </div>
             </Grid>
           </Grid>
@@ -230,9 +240,21 @@ export const P1S7 = () => {
                 <h1>Get in Touch</h1>
                 <h3>Sign Up to our newletter</h3>
                 <div className="emailSubmit">
-                <form className="ContactUsForm" ref={form} onSubmit={sendEmail}>
-                  <input type="email" name="from_name" placeholder="Your Email" required/>
-                  <button   type="submit" value="Send" className="ButtonSignUp"> Sign Up</button>
+                  <form
+                    className="ContactUsForm"
+                    ref={form}
+                    onSubmit={sendEmail}
+                  >
+                    <input
+                      type="email"
+                      name="from_name"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <button type="submit" value="Send" className="ButtonSignUp">
+                      {" "}
+                      Sign Up
+                    </button>
                   </form>
                 </div>
               </Grid>
