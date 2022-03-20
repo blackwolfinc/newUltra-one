@@ -1592,69 +1592,6 @@
   }
 }
 
-.footerContainer {
-  border-top: 1px solid rgba(128, 128, 128, 0.432);
-
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  font-size: 12px;
-  font-family: "Red Hat Display", sans-serif;
-  background: #25203f;
-  line-height: 24px;
-  color: #ffffff !important;
-
-  a {
-    text-decoration: none;
-    color: #ffffff !important;
-
-    min-width: fit-content !important;
-  }
-
-  .IconSocial {
-    margin-bottom: -0.5rem;
-    margin-left: -3rem;
-    min-width: 19.333333% !important;
-    // background-color: #2ccb58;
-    transform: scale(0.8);
-    img {
-      border: 1px solid gray;
-      border-radius: 50%;
-      padding: 1px;
-      max-width: 25px;
-      height: 25px;
-      margin: 0rem 0.3rem;
-    }
-  }
-  .FooterA {
-    padding: 0rem !important;
-    max-width: 10.333333%;
-    flex-basis: 10%;
-  }
-  .FooterContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  @media all and (max-width: 1024px) {
-    .FooterA {
-      max-width: none !important;
-      flex-basis: auto !important;
-    }
-
-    .FooterContainer {
-      display: flex;
-      flex-direction: column !important;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-}
 
 .bottomSection {
   background: #f3f0f9;
@@ -1737,3 +1674,5 @@
     width: 100%;
   }
 }
+
+

@@ -2,11 +2,16 @@ import { Container } from "@material-ui/core";
 import React from "react";
 import { CommingSoon } from "./CommingSoon/CommingSoon";
 import { Page1 } from "./Page1/Page1";
-
+import { Routes, Route, Link } from "react-router-dom";
+import { ContactUs } from "./ContactUs/ContactUs";
 export const Layout = () => {
   return (
     <div>
-        <Page1/>
+        <Routes>
+        <Route path="/" element={  <Page1/>} />
+        <Route path="ContactUs" element={<ContactUs />} />
+      </Routes>
+        
     </div>
   );
 };

@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Container, Grid, Link } from "@material-ui/core";
 import logo from "../../Assets/img/LogoUltra.png";
 import DehazeIcon from "@material-ui/icons/Dehaze";
+import "./Navbar.scss"
 export const Navbar = () => {
   const [OpenModal, setOpenModal] = useState(false);
   return (
-    <div>
+    <div className="navbar">
       <Container maxWidth={"lg"}>
         <Grid
           data-aos="fade-up"
@@ -14,24 +15,25 @@ export const Navbar = () => {
           className="ContainerHeaderLogo"
         >
           <Grid item sm={10} md={5} className="HeaderLogo" >
-            <img  src={logo} alt="" />
+          <a href="/">  <img  src={logo} alt="" /></a>
+           
           </Grid>
           <Grid item sm={12} md={7} className="HeaderBody">
             <Grid container spacing={1}>
               <Grid className="nav-itemHeader" item sm={12} md={2}>
-                <a href="#ourProduct">Products</a>
+                <a href="/#ourProduct">Products</a>
               </Grid>
               <Grid className=" width nav-itemHeader" item sm={12} md={2}>
-                <a href="#ourNetwork">Our network</a>
+                <a href="/#ourNetwork">Our network</a>
               </Grid>
               <Grid className=" nav-itemHeader" item sm={12} md={2}>
-                <a href="#aboutUs">About us</a>
+                <a href="/#aboutUs">About us</a>
               </Grid>
               <Grid className=" nav-itemHeader  HeaderButton" item sm={12} md={3}>
-              <button>CONTACT US</button>
+              <a href="/ContactUs"><button>CONTACT US</button></a>
               </Grid>
               <Grid className="Number nav-itemHeader" item sm={12} md={3}>
-                <a href="">8(555) 560-9998</a>
+                <a href="tel:+1(240)202-4606"> +1 (240) 202-4606</a>
               </Grid>
             </Grid>
           </Grid>
@@ -52,7 +54,8 @@ export const Navbar = () => {
         <Grid className=" width nav-itemHeader" item sm={12} md={3}>
         <a href="#ourNetwork">Our network</a>
         </Grid>
-        <Grid className=" nav-itemHeader" item sm={12} md={3}>
+        <Grid className=" nav-itemHeader
+        " item sm={12} md={3}>
         <a href="#aboutUs">About us</a>
         </Grid>
 
@@ -64,3 +67,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+

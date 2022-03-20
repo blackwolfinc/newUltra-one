@@ -1,0 +1,130 @@
+.navbar{
+    margin-top: 0rem;
+@media all and (max-width: 1064px) {
+    .HeaderBody,
+    .HeaderButton {
+      display: none !important;
+    }
+
+    .ContainerHeaderLogo {
+      justify-content: space-between !important;
+    }
+    .HeaderButton2 {
+      display: block !important;
+    }
+  }
+
+  .HeaderLogo {
+    display: flex;
+    justify-content: space-between;
+    // filter: drop-shadow(1.1px 1px 1px #25203fc4);
+  }
+
+  .HeaderBody {
+    .Number {
+      text-align: center;
+    }
+
+    .width {
+      text-align: left;
+      margin-left: -1rem;
+      min-width: fit-content;
+    }
+    .nav-itemHeader:hover {
+      transform: scale(1.1);
+      transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+      filter: drop-shadow(10px 5px 4px #4444dd62);
+    }
+  }
+
+  .showHeaderText {
+    background-color: #7776c3;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    left: 0px;
+    padding: 2rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+ 
+    .nav-itemHeader {
+      padding: 1rem 0rem;
+      a {
+        color: #fff !important;
+      }
+    }
+
+    
+  }
+
+  .HeaderBody {
+    .Number {
+      text-align: center;
+    }
+
+    .width {
+      text-align: left;
+      margin-left: -1rem;
+      min-width: fit-content;
+    }
+    .nav-itemHeader:hover {
+      transform: scale(1.1);
+      transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+      filter: drop-shadow(10px 5px 4px #4444dd62);
+    }
+  }
+
+
+  .HeaderButton2 {
+    button {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-content: center;
+      background-color: #7272c0;
+      padding: 0.5rem 0.5rem;
+      border-radius: 12px;
+      margin-top: -0.5rem;
+      margin-left: 0rem;
+      right: 1rem;
+      color: #fff;
+    }
+  }
+  button:hover {
+    transition: 450ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    transform: scale(1) !important;
+    box-shadow: 0px 6px 12px #25203f !important;
+  }
+
+  .HeaderButton2 {
+    justify-self: end;
+    display: none;
+  }
+
+  img {
+    width: 7rem;
+    margin-top: -1rem;
+  }
+  .page1Header a {
+    color: #5518bB;
+}
+
+button {
+    background-color: #7272c0;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+  a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    width: 1rem;
+    text-decoration: none;
+  }
+}

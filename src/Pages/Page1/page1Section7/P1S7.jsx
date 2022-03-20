@@ -1,5 +1,5 @@
-import { Container, Grid } from "@material-ui/core";
-import React from "react";
+import { Container, Grid} from "@material-ui/core";
+import React, { useRef ,useState } from "react";
 import iconLocation1 from "../../../Assets/Icon/iconLocation/Point_icon.png";
 import iconLocation2 from "../../../Assets/Icon/iconLocation/Point_icon2.png";
 import iconLocation3 from "../../../Assets/Icon/iconLocation/Point_icon3.png";
@@ -9,7 +9,38 @@ import iconSocial2 from "../../../Assets/Icon/iconSocial/Social Icons2.png";
 import iconSocial3 from "../../../Assets/Icon/iconSocial/Social Icons3.png";
 import iconSocial4 from "../../../Assets/Icon/iconSocial/Social Icons4.png";
 import LocationBackground from "../../../Assets/img/Locations.png";
+import emailjs from "@emailjs/browser";
 export const P1S7 = () => {
+
+  const form = useRef();
+
+
+    
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0b4jma8",
+        "template_x34ljvs",
+        form.current,
+        "oiFR3H-QXCxnGywBw"
+      )
+      .then(
+        (result) => {
+     
+         
+          window.location.href ="/"
+          alert("E-mail has been sent , Thank you for sending us a message  , We will reply as soon as possible during business hours .         ")
+        },
+        (error) => {
+       
+            alert(error)
+        }
+      );
+  };
   return (
     <div className="Container-Location">
       {" "}
@@ -23,6 +54,7 @@ export const P1S7 = () => {
               priority traffic plan
             </h4>
           </Grid>
+
           <Grid container className="LocationSmall">
               <Grid item md={12} className="CardLocationSmall"> New York</Grid>
               <Grid item md={12} className="CardLocationSmall"> London</Grid>
@@ -198,8 +230,10 @@ export const P1S7 = () => {
                 <h1>Get in Touch</h1>
                 <h3>Sign Up to our newletter</h3>
                 <div className="emailSubmit">
-                  <input type="text" placeholder="Your Email" />
-                  <button className="ButtonSignUp"> Sign Up</button>
+                <form className="ContactUsForm" ref={form} onSubmit={sendEmail}>
+                  <input type="email" name="from_name" placeholder="Your Email" required/>
+                  <button   type="submit" value="Send" className="ButtonSignUp"> Sign Up</button>
+                  </form>
                 </div>
               </Grid>
             </Grid>
