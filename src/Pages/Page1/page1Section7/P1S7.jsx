@@ -99,9 +99,10 @@ export const P1S7 = () => {
                       Unlimited priority traffic plan
                     </p>
 
-                    <a href="https://goo.gl/maps/sWp8kWgAwRLHBtcJ6">
+                    {/* <a href="https://goo.gl/maps/sWp8kWgAwRLHBtcJ6">
                       To the map
-                    </a>
+                    </a> */}
+                    <a><h3>CommingSoon . .</h3></a>
                   </div>
                 </div>
               </div>
@@ -122,9 +123,10 @@ export const P1S7 = () => {
                       servers. Our servers by default are packaged with our
                       Unlimited priority traffic plan
                     </p>
-                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                    {/* <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
                       To the map
-                    </a>
+                    </a> */}
+                    <a><h3>CommingSoon . .</h3></a>
                   </div>
                 </div>
               </div>
@@ -170,9 +172,10 @@ export const P1S7 = () => {
                       Unlimited priority traffic plan
                     </p>
 
-                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                    {/* <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
                       To the map
-                    </a>
+                    </a> */}
+                    <a><h3>CommingSoon . .</h3></a>
                   </div>
                 </div>
               </div>
@@ -193,9 +196,10 @@ export const P1S7 = () => {
                       servers. Our servers by default are packaged with our
                       Unlimited priority traffic plan
                     </p>
-                    <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
+                    {/* <a href="https://goo.gl/maps/nAVz135iQ8wjke6P8">
                       To the map
-                    </a>
+                    </a> */}
+                    <a><h3>CommingSoon . .</h3></a>
                   </div>
                 </div>
               </div>

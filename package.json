@@ -27,8 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    
-    "fast-deploy" : "git add . &&  git commit -m 'fast' && git push origin main && git push heroku main  "
+
+    "fast-deploy" : "git add . &&  git commit -m 'fast' && git push origin main   "
   },
   "eslintConfig": {
     "extends": [

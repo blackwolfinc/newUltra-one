@@ -34,7 +34,7 @@ export const P1S8 = () => {
       </Grid>
     </Grid>
     <Grid item  xs={12} sm={12} md={2}>
-      <a href="https://www.privacypolicies.com/live/b18c8446-d53f-4a0f-882e-c7298a1b4de8">Privacy Policy</a>{" "}
+      <a href="PrivacyPolicy">Privacy Policy</a>{" "}
     </Grid>
   </Grid>
 </Container>;

@@ -1,7 +1,7 @@
 .footerContainer {
   border-top: 1px solid rgba(128, 128, 128, 0.432);
 
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   display: flex;
   justify-content: space-between;
   font-style: normal;
@@ -22,7 +22,7 @@
 
   .IconSocial {
     margin-bottom: -0.5rem;
-    margin-left: -3rem;
+    margin-left: 1rem;
     min-width: 19.333333% !important;
     // background-color: #2ccb58;
     transform: scale(0.8);
@@ -30,8 +30,8 @@
       border: 1px solid gray;
       border-radius: 50%;
       padding: 1px;
-      max-width: 25px;
-      height: 25px;
+      max-width: 20px;
+      height: 20px;
       margin: 0rem 0.3rem;
     }
   }
