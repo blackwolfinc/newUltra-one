@@ -65,6 +65,20 @@
       align-items: center;
     }
   }
+  @media all and (max-width: 650px) {
+    .FooterA {
+      max-width: none !important;
+      flex-basis: auto !important;
+    }
+
+    .FooterContainer {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0rem !important;
+    }
+  }
 }
 
 
