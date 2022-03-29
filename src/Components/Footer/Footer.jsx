@@ -13,7 +13,7 @@ export const Footer = () => {
           <Grid item xs={12} sm={12} md={2}>
             <a href="">© 2022 Ultra.One</a>{" "}
           </Grid>
-          <Grid item xs={12} sm={12} md={7}>
+          <Grid item xs={12} sm={12} md={6}>
             <Grid container justifyContent="center" className="FooterContainer">
               <Grid item className="FooterA" xs={12} sm={12} md={2}>
                 <a href="/#ourProduct">Products</a>
@@ -39,10 +39,10 @@ export const Footer = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={12} sm={12} md={3}>
+          <Grid item xs={12} sm={12} md={4}>
           <a className='privacy' href="PrivacyPolicy">Privacy Policy</a>{" "}
         <a className='privacy' href="https://www.privacypolicies.com/live/b18c8446-d53f-4a0f-882e-c7298a1b4de8">Refund  Policy</a>{" "}
-        <a className='privacy' href="AffiliatePolicy">Affiliate Policy</a>{" "}
+        <a className='privacy' href="AffiliatePolicy">Active user policy</a>{" "}
           </Grid>
         </Grid>
       </Container>

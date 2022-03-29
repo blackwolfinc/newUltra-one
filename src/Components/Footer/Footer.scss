@@ -111,7 +111,7 @@
     }
     .IconSocial {
       margin-bottom: -0.5rem;
-      margin-left: -0.5rem;
+      margin-left: 0.5rem;
       min-width: 23.333333% !important;
       // background-color: #2ccb58;
       transform: scale(1);
@@ -135,6 +135,7 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      margin-left: 2rem;
     }
   
     @media all and (max-width: 1024px) {
@@ -148,6 +149,21 @@
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
+
+      }
+    }
+    @media all and (max-width: 560px) {
+      .FooterA {
+        max-width: none !important;
+        flex-basis: auto !important;
+      }
+  
+      .FooterContainer {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
       }
     }
   }
