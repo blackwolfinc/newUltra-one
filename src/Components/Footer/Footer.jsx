@@ -46,7 +46,7 @@ export const Footer = () => {
           </Grid>
         </Grid>
       </Container>
-      ;
+      
     </div>
   );
 };
