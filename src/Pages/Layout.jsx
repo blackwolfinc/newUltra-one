@@ -13,7 +13,7 @@ export const Layout = () => {
         <Route path="/" element={  <Page1/>} />
         <Route path="ContactUs" element={<ContactUs />} />
         <Route path="PrivacyPolicy" element={<PrivacyPolicy/>} />
-        <Route path="AffiliatePolicy" element={<PrivacyUser/>} />
+        <Route path="ActiveUserPolicy" element={<PrivacyUser/>} />
         
       </Routes>
         
