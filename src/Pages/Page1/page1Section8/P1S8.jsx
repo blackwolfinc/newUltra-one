@@ -39,7 +39,7 @@ export const P1S8 = () => {
     </Grid>
     <Grid item  xs={12} sm={12} md={3}>
       <a className='privacy' href="PrivacyPolicy">Privacy Policy</a>{" "}
-      <a className='privacy' href="https://www.privacypolicies.com/live/b18c8446-d53f-4a0f-882e-c7298a1b4de8">Refund  Policy</a>{" "}
+      <a className='privacy' href="RefundPolicy">Refund  Policy</a>{" "}
       <a className='privacy' href="ActiveUserPolicy">Active user policy</a>{" "}
     </Grid>
   </Grid>

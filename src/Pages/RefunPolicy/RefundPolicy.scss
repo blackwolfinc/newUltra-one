@@ -1,0 +1,40 @@
+.PrivacyUser{
+    margin-top: 2rem;
+
+    h1{
+        font-size: 42px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    li{
+        line-height:2rem; margin-left: 2rem;
+        font-size: 19px;
+    }
+   p{
+       margin: 1rem 0rem;
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 1.5rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    a{
+        background-color: #7272c0;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        color: #fff;
+        box-shadow:  3px 3px 10px #2a2a83,
+        -1px -1px 3px #12123a;
+        // margin-bottom: 1.5rem;
+        margin-top: 0rem;
+        width: 30%;
+        text-align: center;
+        text-decoration: none;
+    }
+    button:hover{
+        background-color: #fff;
+        color: #7272c0;
+    }
+   }
+}

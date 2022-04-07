@@ -6,6 +6,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { ContactUs } from "./ContactUs/ContactUs";
 import { PrivacyPolicy } from "./PrivacyPolice/PrivacyPolicy";
 import { PrivacyUser } from "./PrivacyUser/PrivacyUser";
+import { RefundPolicy } from "./RefunPolicy/RefundPolicy";
 export const Layout = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ export const Layout = () => {
         <Route path="ContactUs" element={<ContactUs />} />
         <Route path="PrivacyPolicy" element={<PrivacyPolicy/>} />
         <Route path="ActiveUserPolicy" element={<PrivacyUser/>} />
+        <Route path="RefundPolicy" element={<RefundPolicy/>} />
         
       </Routes>
         
