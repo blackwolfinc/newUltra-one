@@ -9,7 +9,10 @@ export const P1S8 = () => {
   <Container maxWidth={"xl"} className="footerContainer">
   <Grid container>
     <Grid item  xs={12} sm={12} md={2}>
-      <a href="">© 2022 Ultra.One</a>{" "}
+      <a href="">© 2022 Ultra.One ,</a>{" "}
+    
+      
+     
     </Grid>
     <Grid item  xs={12} sm={12} md={7}>
       <Grid container justifyContent="center" className='FooterContainer'>
@@ -41,7 +44,12 @@ export const P1S8 = () => {
       <a className='privacy' href="PrivacyPolicy">Privacy Policy</a>{" "}
       <a className='privacy' href="RefundPolicy">Refund  Policy</a>{" "}
       <a className='privacy' href="ActiveUserPolicy">Active user policy</a>{" "}
+      
     </Grid>
+    
+  </Grid>
+  <Grid>
+  <h4 className='footer-Addres'> ULTRA ONE LLC  , 30 N GOULD ST. SHERIDAN WYOMING 82801</h4>
   </Grid>
 </Container>
 </div>
