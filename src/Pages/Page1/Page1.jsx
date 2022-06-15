@@ -19,8 +19,8 @@ export const Page1 = () => {
       <P1S1/>
       </div>
       <P1S2/>
-      <P1S3/>
-      <P1S4/>
+      {/* <P1S3/> */}
+      {/* <P1S4/> */}
       <div className="ContainerSectionBuild">
       <P1S6/>
       </div>

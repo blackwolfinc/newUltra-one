@@ -5,7 +5,11 @@ import icon1 from "../../../Assets/Icon/icon1.png";
 import icon2 from "../../../Assets/Icon/icon2.png";
 import icon3 from "../../../Assets/Icon/icon3.png";
 import icon4 from "../../../Assets/Icon/icon4.png";
+import { Link } from "react-router-dom";
+
 export const P1S1 = () => {
+ 
+
   return (
     <Container>
       <Navbar />
@@ -24,7 +28,10 @@ export const P1S1 = () => {
             Experience uncompromising performance with our bare-metal servers.
             Let’s discuss what we can build and make possible for you
           </p>
-          <button>SHOP SERVERS</button>
+          <a href="https://client.ultra.one/">Shop Solutions</a>
+
+
+
         </Grid>
       </Grid>
       {/* pemisah */}
