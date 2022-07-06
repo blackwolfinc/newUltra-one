@@ -84,18 +84,11 @@ export const P1S6 = () => {
                     you. Our team is equipped with years of industry experience
                     to build and advice on any solution. Whether be you need
                     access to a specific carrier, or are in the market to lease
-                    a /16 IPv4,  write to us.
+                    a /16 IPv4, write to us.
                   </p>
                 </Grid>
               </Grid>
             </Grid>
-            <button
-              className="buttonContatUs"
-              data-aos="fade-up"
-              data-aos-duration="800"
-            >
-              Contact Us
-            </button>
           </Grid>
         </Grid>
       </Grid>

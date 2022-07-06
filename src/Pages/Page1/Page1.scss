@@ -732,7 +732,7 @@
 }
 
 .ContainerSectionBuild {
-  margin-top: 5rem !important;
+  margin-top: -4rem !important;
   background: url(../../Assets/img/WeBuilt.png);
 
   @media all and (max-width: 1024px) {
@@ -773,6 +773,7 @@
 
     .SectionBuildBody {
       padding-left: 1.5rem;
+
     }
   }
   .buttonContatUs:hover {
@@ -1127,6 +1128,8 @@
             a {
               margin-top: 1rem;
               text-align: center;
+
+              
               color: #7272c0;
               font-size: 14px;
               line-height: 19px;

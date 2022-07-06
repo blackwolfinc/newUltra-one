@@ -21,13 +21,13 @@ export const Footer = () => {
               <Grid item className="FooterA" xs={12} sm={12} md={2}>
                 <a href="/#aboutUs">About Us</a>
               </Grid>
-              <Grid item className="FooterA" xs={12} sm={12} md={4}>
+              {/* <Grid item className="FooterA" xs={12} sm={12} md={4}>
                 <a href="/#ourNetwork">Our Network</a>
-              </Grid>
+              </Grid> */}
               <Grid item className="FooterA" xs={12} sm={12} md={2}>
-                <a href="ContactUs">Contacts</a>
+                <a href="/ContactUs">Contacts</a>
               </Grid>
-              <Grid item className="FooterA" xs={12} sm={12} md={2}>
+              {/* <Grid item className="FooterA" xs={12} sm={12} md={2}>
                 <a>Follow Us</a>
               </Grid>
               <Grid item className="FooterA IconSocial" xs={12} sm={12} md={2}>
@@ -35,7 +35,7 @@ export const Footer = () => {
                 <img src={iconSocial2} alt="" />
                 <img src={iconSocial3} alt="" />
                 <img src={iconSocial4} alt="" />
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={12} sm={12} md={4}>

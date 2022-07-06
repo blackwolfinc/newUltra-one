@@ -5,7 +5,7 @@ export const P1S3 = () => {
   return (
     <Container className="OurNetworkContainer">
       <Grid container>
-        <Grid
+        {/* <Grid
           item
           xs={12}
           sm={12}
@@ -14,7 +14,7 @@ export const P1S3 = () => {
           data-aos-duration="800"
         >
           <h1 id="ourNetwork">Our Network</h1>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} sm={12} md={12}>
           <Grid
             container
@@ -71,7 +71,8 @@ export const P1S3 = () => {
             <Grid item sm={12} md={4} className="ButtonCountry">
               <button>
                 {" "}
-                <span>Ashburn</span> <a href="https://goo.gl/maps/Sr9eXnqDuNU1KTd96">To the Map</a>
+                <span>Ashburn</span>{" "}
+                <a href="https://goo.gl/maps/Sr9eXnqDuNU1KTd96">To the Map</a>
               </button>
             </Grid>
             {/* <Grid item className="ButtonCountry">
